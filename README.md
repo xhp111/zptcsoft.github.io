@@ -24,7 +24,7 @@
     - 快速学习成长，并迅速适应创业团队氛围
 - 职位要求：
     - 对网站有优秀的设计感
-    - 对UI/UX有深入的理解
+    - 对UI/UX有深入理解
     - 熟悉 HTML5/CSS3 的标准并跨浏览器和平台的兼容性有深入理解
     - 精通object-oriented JavaScript, jQuery, DOM manipulation
     - 能按照产品模型或框架有效进行 HTML/CSS/JavaScript 开发
