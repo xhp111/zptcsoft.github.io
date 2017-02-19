@@ -43,15 +43,15 @@
 
 利用《界面设计》帮您成为细节控，获得优秀网页的设计感，深入理解UI、UX。
 
-利用《网页设计与制作》帮您学习html+css， 熟悉 HTML5/CSS3 的标准并跨浏览器和平台的兼容性有深入理解， 能按照产品模型或框架有效进行 HTML/CSS/JavaScript 开发。
+利用《前端开发》帮您学习html+css， 熟悉 HTML5/CSS3 的标准并跨浏览器和平台的兼容性有深入理解， 能按照产品模型或框架有效进行 HTML/CSS/JavaScript 开发。
 
-利用《web交互开发》帮您学习原生javascript语言，逐步掌握object-oriented JavaScript, DOM manipulation，并同时学习jQuery，助力的您的交互开发。
+利用《交互开发》帮您学习原生javascript语言，逐步掌握object-oriented JavaScript, DOM manipulation，并同时学习jQuery，助力的您的交互开发。
 
-利用《移动开发平台》帮您熟悉移动web开发，了解Node.js、Angular.js、响应式设计等。
+利用《交互开发进阶》帮您熟悉移动web开发，了解Node.js、Angular.js、响应式设计等。
 
 ## 课程简介
 
-《网页设计与制作》的主要目标是让您学会使用html+css实现符合web标准、兼容主流浏览器的前端页面。
+《前端开发》的主要目标是让您学会使用html+css实现符合web标准、兼容主流浏览器的前端页面。
 
 课程主要内容包括：
 
@@ -63,7 +63,7 @@
 ## 课程讲义
 01. [课程概述](//zptcsoft.github.io/ppt/01.htm)
 02. [web概述](//zptcsoft.github.io/ppt/02.htm)
-03. [html概述](//zptcsoft.github.io/ppt/03.htm)
+03. [HTML概述](//zptcsoft.github.io/ppt/03.htm)
 04. [HTML元素](//zptcsoft.github.io/ppt/04.htm)--[html5元素周期表](//zptcsoft.github.io/html5-elements-periodic-table/)
 05. [HTML属性](//zptcsoft.github.io/ppt/05.htm)
 06. [HTML文档元数据和脚本元素](//zptcsoft.github.io/ppt/06.htm)
@@ -75,7 +75,7 @@
 12. [HTML表格](//zptcsoft.github.io/ppt/12.htm)--[table实验](//zptcsoft.github.io/ppt/demos/table.html)
 13. [CSS初步](//zptcsoft.github.io/ppt/13.htm)
 14. [CSS选择器](//zptcsoft.github.io/ppt/14.htm)
-15. [css边框](//zptcsoft.github.io/ppt/14.htm)--[border实验](//zptcsoft.github.io/ppt/demos/border.html)
+15. [CSS边框](//zptcsoft.github.io/ppt/14.htm)--[border实验](//zptcsoft.github.io/ppt/demos/border.html)
 
 ## 课程资源
 0.  自制[在线html编辑器](//zptcsoft.github.io/ppt/demos/editor.html)。
@@ -90,7 +90,16 @@
 9. 期中考试[链接](http://zptcweb.github.io/book.html)，请大家抄网页练习。
 
 ## 学友链接
-### 软件151
+
+### 软件161
+
+
+### 移动161
+
+
+
+### 历届学友
+#### 软件151
 [01徐浩鹏](//github.com/xhp111/xhp111.github.io)
 [02李明豪](//github.com/fylmh/fylmh.github.io) 
 [04尹飞燕](//github.com/Ysidm/zptcsoft.github.io/)
@@ -131,7 +140,7 @@
 [39刘晓辉](//github.com/liuxiaohui2060/liuxiaohui2060.github.io)
 [41徐鹏](//github.com/xp1065013466/xp1065013466.github.io)
 
-### 软件152
+#### 软件152
 [01余家宝](//github.com/prtake/prtake.github.io) 
 [02郑柯柯](//github.com/771490657/771490657.github.io)
 [03单超艺](//github.com/Mometime/Mometime.github.io)
@@ -196,7 +205,14 @@
 
 ## 加分快讯
 
-### 软件151 
+### 软件161
+
+
+### 移动161
+
+
+### 历史纪录
+#### 软件151 
 1. 24曾丽丽 成功提交[更改](//github.com/zptcsoft/zptcsoft.github.io/pull/126)，获得悬赏分数20分，鼓掌庆贺吧。
 2. 27王瑶 发起很有价值的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/135)，平时成绩加5分。
 3. 09陈浩分享[取色软件colorspro](//github.com/zptcsoft/zptcsoft.github.io/issues/136)，喜欢的移步下载。平时成绩加5分，鼓掌庆贺！！
@@ -208,7 +224,7 @@
 100. 继续呀，海量分数等你拿。
 
 
-### 软件152
+#### 软件152
 1. 37杨虹提问[问题](//github.com/zptcsoft/zptcsoft.github.io/issues/112)，平时成绩加5分，同学们动起来，go! go!
 2. 36陈兴博创建资源[分享帖](//github.com/zptcsoft/zptcsoft.github.io/issues/113)，平时成绩加5分，这就对了，yeah！
 3. 24郑爱萍提问[问题](//github.com/zptcsoft/zptcsoft.github.io/issues/115), 平时成绩加5分。大家一起来盖楼！！
@@ -227,7 +243,16 @@
 ## 知识分享
 本活动自愿参与，请同学预先学习某个知识点，然后上课的时候**当老师**把学习的成果讲解给大家，目的有二，一是鼓励自学，二是锻炼胆量。
 
-### 软件151 
+### 软件161
+
+
+### 移动161
+
+
+
+### 历届学友
+
+#### 软件151 
 1. *王瑶* 
 2. *马驰傲*
 3. *张天一*
@@ -246,7 +271,7 @@
 16. 张铸涛
 100. 等你
 
-### 软件152
+#### 软件152
 1. *江俊杰*
 2. *王志斌*
 3. *陈猛*
