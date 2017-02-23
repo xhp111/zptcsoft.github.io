@@ -88,7 +88,6 @@
 7.  网站制作[视频教程](http://v.dxsbb.com/topiclist/wangzhan.html)， 请大家帮忙整理网络系列学习教程。
 8. 采色软件colorspro[软件下载](http://pan.baidu.com/s/1eRvaJj8)，截屏软件FSCapture[网页下载](http://cy.cr173.com/fscapture_gr.zip)，[网盘下载](http://pan.baidu.com/s/1i39tjDj)，密码：7lpr。
 9. 飞速编码的极客工具，手指爽、眼睛爽的开发工具[HBuilder](http://www.dcloud.io/)。
-9. 期中考试[链接](http://zptcweb.github.io/book.html)，请大家抄网页练习。
 
 ## 学友链接
 
