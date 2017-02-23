@@ -75,7 +75,7 @@
 12. [HTML表格](//zptcsoft.github.io/ppt/12.htm)--[table实验](//zptcsoft.github.io/ppt/demos/table.html)
 13. [CSS初步](//zptcsoft.github.io/ppt/13.htm)
 14. [CSS选择器](//zptcsoft.github.io/ppt/14.htm)
-15. [CSS边框](//zptcsoft.github.io/ppt/14.htm)--[border实验](//zptcsoft.github.io/ppt/demos/border.html)
+15. [CSS边框](//zptcsoft.github.io/ppt/15.htm)--[border实验](//zptcsoft.github.io/ppt/demos/border.html)--[border实验02](//zptcsoft.github.io/ppt/demos/border02.html)
 
 ## 课程资源
 0.  自制[在线html编辑器](//zptcsoft.github.io/ppt/demos/editor.html)。
