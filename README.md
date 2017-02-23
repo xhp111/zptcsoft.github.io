@@ -39,19 +39,19 @@
     - 移动 Web 开发经验
     - 深刻理解 Web 标准, 熟练解决主流浏览器及不同版本的兼容性问题（IE、Chrome、Firefox)
 
-我们可以看到，企业对岗位的需求非常明确，这个就是我么未来一年半的学习目标。我们将会利用《界面设计》、《网页设计与制作》、《web交互开发》、《移动开发平台》等几门课，逐步的走进前端开发的殿堂。
+我们可以看到，企业对岗位的需求非常明确，这个就是我么未来一年半的学习目标。我们将会利用《界面设计》、《前端开发》、《交互开发》、《交互开发进阶》等几门课，逐步的走进前端开发的殿堂。
 
 利用《界面设计》帮您成为细节控，获得优秀网页的设计感，深入理解UI、UX。
 
-利用《网页设计与制作》帮您学习html+css， 熟悉 HTML5/CSS3 的标准并跨浏览器和平台的兼容性有深入理解， 能按照产品模型或框架有效进行 HTML/CSS/JavaScript 开发。
+利用《前端开发》帮您学习html+css， 熟悉 HTML5/CSS3 的标准并跨浏览器和平台的兼容性有深入理解， 能按照产品模型或框架有效进行 HTML/CSS/JavaScript 开发。
 
-利用《web交互开发》帮您学习原生javascript语言，逐步掌握object-oriented JavaScript, DOM manipulation，并同时学习jQuery，助力的您的交互开发。
+利用《交互开发》帮您学习原生javascript语言，逐步掌握object-oriented JavaScript, DOM manipulation，并同时学习jQuery，助力的您的交互开发。
 
-利用《移动开发平台》帮您熟悉移动web开发，了解Node.js、Angular.js、响应式设计等。
+利用《交互开发进阶》帮您熟悉移动web开发，了解Node.js、Angular.js、响应式设计等。
 
 ## 课程简介
 
-《网页设计与制作》的主要目标是让您学会使用html+css实现符合web标准、兼容主流浏览器的前端页面。
+《前端开发》的主要目标是让您学会使用html+css实现符合web标准、兼容主流浏览器的前端页面。
 
 课程主要内容包括：
 
@@ -63,7 +63,7 @@
 ## 课程讲义
 01. [课程概述](//zptcsoft.github.io/ppt/01.htm)
 02. [web概述](//zptcsoft.github.io/ppt/02.htm)
-03. [html概述](//zptcsoft.github.io/ppt/03.htm)
+03. [HTML概述](//zptcsoft.github.io/ppt/03.htm)
 04. [HTML元素](//zptcsoft.github.io/ppt/04.htm)--[html5元素周期表](//zptcsoft.github.io/html5-elements-periodic-table/)
 05. [HTML属性](//zptcsoft.github.io/ppt/05.htm)
 06. [HTML文档元数据和脚本元素](//zptcsoft.github.io/ppt/06.htm)
@@ -75,22 +75,31 @@
 12. [HTML表格](//zptcsoft.github.io/ppt/12.htm)--[table实验](//zptcsoft.github.io/ppt/demos/table.html)
 13. [CSS初步](//zptcsoft.github.io/ppt/13.htm)
 14. [CSS选择器](//zptcsoft.github.io/ppt/14.htm)
-15. [css边框](//zptcsoft.github.io/ppt/14.htm)--[border实验](//zptcsoft.github.io/ppt/demos/border.html)
+15. [CSS边框](//zptcsoft.github.io/ppt/14.htm)--[border实验](//zptcsoft.github.io/ppt/demos/border.html)
 
 ## 课程资源
 0.  自制[在线html编辑器](//zptcsoft.github.io/ppt/demos/editor.html)。
 1.  著名常用web学习网站[w3school](//www.w3school.com.cn/)，入门必备。
 2.  [html标签参考手册](http://www.w3school.com.cn/tags/html_ref_byfunc.asp), [html 参考手册官方英文](https://www.w3.org/TR/html-markup/), [html5元素周期表](//zptcsoft.github.io/html5-elements-periodic-table/)
 3.  [css3手册在线版](//css.doyoe.com/)，[css3手册下载](//css.doyoe.com/css.chm)，[css手册本地版](//zptcsoft.github.io/css3/)
-4.  史上最性感的编辑器-[**sublimetext**](www.sublimetext.com/)，[安装步骤](soft/01install sublime_text.md)，**sublime text常用插件集成版** [百度网盘下载](//pan.baidu.com/s/1nubND8l)、[课程资源下载](//github.com/zptcsoft/zptcsoft.github.io/raw/dev/soft/01Sublime%20Text%202.0.2%20x64.rar), [学习资源](//www.jianshu.com/p/d1b9a64e2e37)。
-5.  **GithubDesktop安装**，首先安装[**.net Framework 4.5**](//www.microsoft.com/zh-cn/download/details.aspx?id=30653), 其次解压缩安装**Github Desktop**[百度网盘下载](//pan.baidu.com/s/1i4bVR4T)、[课程资源下载](//github.com/zptcsoft/zptcsoft.github.io/raw/dev/soft/02Github%20Desktop.rar)。
+4.  史上最性感的编辑器-[**sublimetext**](www.sublimetext.com/)，[安装步骤](soft/01install sublime_text.md)，**sublime text常用插件集成版** [百度网盘下载](//pan.baidu.com/s/1nubND8l), [学习资源](//www.jianshu.com/p/d1b9a64e2e37)。
+5.  **GithubDesktop安装**，首先安装[**.net Framework 4.5**](//www.microsoft.com/zh-cn/download/details.aspx?id=30653), 其次解压缩安装**Github Desktop**[百度网盘下载](//pan.baidu.com/s/1i4bVR4T)。
 6. [Github Desktop使用教程](https://github.com/zptcsoft/zptcsoft.github.io/blob/master/soft/02HowToUseGithubDesktop.md), [Pull Request教程](), [廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 7.  网站制作[视频教程](http://v.dxsbb.com/topiclist/wangzhan.html)， 请大家帮忙整理网络系列学习教程。
 8. 采色软件colorspro[软件下载](http://pan.baidu.com/s/1eRvaJj8)，截屏软件FSCapture[网页下载](http://cy.cr173.com/fscapture_gr.zip)，[网盘下载](http://pan.baidu.com/s/1i39tjDj)，密码：7lpr。
-9. 期中考试[链接](http://zptcweb.github.io/book.html)，请大家抄网页练习。
+9. 飞速编码的极客工具，手指爽、眼睛爽的开发工具[HBuilder](http://www.dcloud.io/)。
 
 ## 学友链接
-### 软件151
+
+### 软件161
+
+
+### 移动161
+
+
+
+### 历届学友
+#### 软件151
 [01徐浩鹏](//github.com/xhp111/xhp111.github.io)
 [02李明豪](//github.com/fylmh/fylmh.github.io) 
 [04尹飞燕](//github.com/Ysidm/zptcsoft.github.io/)
@@ -131,7 +140,7 @@
 [39刘晓辉](//github.com/liuxiaohui2060/liuxiaohui2060.github.io)
 [41徐鹏](//github.com/xp1065013466/xp1065013466.github.io)
 
-### 软件152
+#### 软件152
 [01余家宝](//github.com/prtake/prtake.github.io) 
 [02郑柯柯](//github.com/771490657/771490657.github.io)
 [03单超艺](//github.com/Mometime/Mometime.github.io)
@@ -196,7 +205,14 @@
 
 ## 加分快讯
 
-### 软件151 
+### 软件161
+
+
+### 移动161
+
+
+### 历史纪录
+#### 软件151 
 1. 24曾丽丽 成功提交[更改](//github.com/zptcsoft/zptcsoft.github.io/pull/126)，获得悬赏分数20分，鼓掌庆贺吧。
 2. 27王瑶 发起很有价值的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/135)，平时成绩加5分。
 3. 09陈浩分享[取色软件colorspro](//github.com/zptcsoft/zptcsoft.github.io/issues/136)，喜欢的移步下载。平时成绩加5分，鼓掌庆贺！！
@@ -208,7 +224,7 @@
 100. 继续呀，海量分数等你拿。
 
 
-### 软件152
+#### 软件152
 1. 37杨虹提问[问题](//github.com/zptcsoft/zptcsoft.github.io/issues/112)，平时成绩加5分，同学们动起来，go! go!
 2. 36陈兴博创建资源[分享帖](//github.com/zptcsoft/zptcsoft.github.io/issues/113)，平时成绩加5分，这就对了，yeah！
 3. 24郑爱萍提问[问题](//github.com/zptcsoft/zptcsoft.github.io/issues/115), 平时成绩加5分。大家一起来盖楼！！
@@ -227,7 +243,16 @@
 ## 知识分享
 本活动自愿参与，请同学预先学习某个知识点，然后上课的时候**当老师**把学习的成果讲解给大家，目的有二，一是鼓励自学，二是锻炼胆量。
 
-### 软件151 
+### 软件161
+
+
+### 移动161
+
+
+
+### 历届学友
+
+#### 软件151 
 1. *王瑶* 
 2. *马驰傲*
 3. *张天一*
@@ -246,7 +271,7 @@
 16. 张铸涛
 100. 等你
 
-### 软件152
+#### 软件152
 1. *江俊杰*
 2. *王志斌*
 3. *陈猛*
