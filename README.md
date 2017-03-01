@@ -207,10 +207,11 @@
 
 ### 软件161
 1. 姚宇飞 代我讲解个github desktop软件的使用，平时成绩加10分。
-2. 沈丹青 发表有意义的Issues，引领潮流，平时成绩加10分。
+2. 沈丹青 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/203)，引领潮流，平时成绩加10分。
+3. 吕涵之、陈汇参与Issues讨论，平时成绩各加5分。
 
 ### 移动161
-
+1. 徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/204)，引领潮流，平时成绩加10分。
 
 ### 历史纪录
 #### 软件151 
