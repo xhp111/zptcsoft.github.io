@@ -341,11 +341,11 @@ angular.module('test', ['objectTable'])
           work05: 0, work06: 0, work07: 0, work08: 0, 
           work09: 0, work10: 0, github: 0,
           grade02:0, grade03:0
-        },
+        }
     ];
     $scope.getGrade = function(data){
         //return if empty or not ready
-        if(!data || !data.length) return;
+       	// if(!data || !data.length) return;
 
         //for(var i=0; i<data.length; i++){
           // totalNumber = totalNumber + parseFloat(data[i].money);
