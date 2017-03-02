@@ -5,7 +5,7 @@
 */
 angular.module('test', ['objectTable'])
 .controller('mainController', function($scope) {
-    $scope.data1 = [
+    $scope.data = [
         { id: 01, 
           name: "姚宇飞", 
           preExam1: 0, preExam2: 0, preExam3: 0, 
@@ -347,20 +347,20 @@ angular.module('test', ['objectTable'])
         //return if empty or not ready
         if(!data || !data.length) return;
 
-        for(var i=0; i<data.length; i++){
+        //for(var i=0; i<data.length; i++){
           // totalNumber = totalNumber + parseFloat(data[i].money);
-          data[i].isPreExame=false;
-          data[i].preExam1Data=data[i].preExam1;
-          data[i].preExam2Data=data[i].preExam2;
-          data[i].preExam3Data=data[i].preExam3;
-          if (data[i].preExam1=="免考"||data[i].preExam2=="免考"||data[i].preExam3=="免考") {
-              data[i].preExam1Data=data[i].preExam2Data=data[i].preExam3Data=0;
-              data[i].grade03=100;
-              data[i].isPreExame=true;
+          data.isPreExame=false;
+          data.preExam1Data=data.preExam1;
+          data.preExam2Data=data.preExam2;
+          data.preExam3Data=data.preExam3;
+          if (data.preExam1=="免考"||data.preExam2=="免考"||data.preExam3=="免考") {
+              data.preExam1Data=data.preExam2Data=data.preExam3Data=0;
+              data.grade03=100;
+              data.isPreExame=true;
           };
-          data[i].grade01=data[i].preExam1Data+data[i].preExam2Data+data[i].preExam3Data+data[i].work01+data[i].work02+data[i].work03+data[i].work04+data[i].work05+data[i].work06+data[i].work07+data[i].work08+data[i].work09+data[i].work10+data[i].github;
-          data[i].grade04=$scope.toDecimal(data[i].grade01*0.2+data[i].grade02*0.3+data[i].grade03*0.5);
-        }
+          data.grade01=data.preExam1Data+data.preExam2Data+data.preExam3Data+data.work01+data.work02+data.work03+data.work04+data.work05+data.work06+data.work07+data.work08+data.work09+data.work10+data.github;
+          data.grade04=$scope.toDecimal(data.grade01*0.2+data.grade02*0.3+data.grade03*0.5);
+        //}
 
     };
 
@@ -373,6 +373,5 @@ angular.module('test', ['objectTable'])
         return f;    
     }   
     
-    $scope.getGrade($scope.data1);
-    $scope.getGrade($scope.data2);
+    $scope.getGrade($scope.data);
 })
