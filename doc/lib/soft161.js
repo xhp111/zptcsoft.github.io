@@ -309,7 +309,7 @@ angular.module('test', ['objectTable'])
           work05: 0, work06: 0, work07: 0, work08: 0, 
           work09: 0, work10: 0, github: 0,
           grade02:0, grade03:0
-        }，
+        },
         { id: 44, 
           name: "白炳钿", 
           preExam1: 0, preExam2: 0, preExam3: 0, 
