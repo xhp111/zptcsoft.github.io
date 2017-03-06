@@ -206,12 +206,20 @@
 ## 加分快讯
 
 ### 软件161
-1. 姚宇飞 代我讲解个github desktop软件的使用，平时成绩加10分。
-2. 沈丹青 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/203)，引领潮流，平时成绩加10分。
-3. 吕涵之、陈汇参与Issues讨论，平时成绩各加5分。
+1. 01姚宇飞 代我讲解个github desktop软件的使用，平时成绩加10分。
+2. 12沈丹青 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/203)，引领潮流，平时成绩加10分。
+3. 11吕涵之、31陈汇参与Issues讨论，平时成绩各加5分。
+4. 20何桂清发表发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/206)，平时成绩加10分。
+5. 19陈黎铭参与帖子讨论，平时成绩加5分。
+6. 18张虓敏发表发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/207)，平时成绩加10分。
+7. 19陈黎铭、31陈汇参与帖子讨论，平时成绩加5分。
+8. 11吕涵之整理sublime text和emmet的使用教程，平时成绩加40分。
+
 
 ### 移动161
 1. 徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/204)，引领潮流，平时成绩加10分。
+2. 鄢滟麟 发表【求助帖】[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/205)，平时成绩加10分。
+3. 
 
 ### 历史纪录
 #### 软件151 
