@@ -92,7 +92,52 @@
 ## 学友链接
 
 ### 软件161
+[01姚宇飞](https://github.com/cabiage)
+[02朱学成](https://github.com/zhuxuecheng) 
+[03岑灏](https://github.com/youxuezhe)
+[04朱晨煜](https://github.com/hasaky)
+[05宋治民](https://github.com/songzm)
+[06潘雪](https://github.com/liuxue1234)
+[07钱伟杰](https://github.com/qq82800620)
+[08姜凯](https://github.com/huojibufei)
+[09陆文涛](https://github.com/fanhuazz)
+[10朱雨婷](https://github.com/zhuyuting666)
+ 
+[11吕涵之](https://github.com/lvhanzhi)
+[12沈丹青](https://github.com/sdq997)
+[13钱都](https://github.com/adyson55)
+[15杜任杰](https://github.com/blackwhite1)
+[16叶信哲](https://github.com/yexinzhe)
+[17蒋轶聪](https://github.com/jycxh11)
+[18张虓敏](https://github.com/wabxq)
+[19陈黎铭](https://github.com/fywithme)
+[20何桂清](https://github.com/changehe)
 
+[21余银超](https://github.com/yuyinchao)
+[22劳锦锞](https://github.com/laojinke)
+[23周渠成](https://github.com/agoodnameistotakethedog)
+[24徐炜昊](https://github.com/)
+[26盛绍斌](https://github.com/miaosha)
+[27王海波](https://github.com/)
+[28郑涛](https://github.com/z1429170900)
+[29郑可琪](https://github.com/shelyer)
+[30潘云锋](https://github.com/)
+
+[31陈汇](https://github.com/chen0704)
+[33蔡浩然](https://github.com/cryblack)
+[34冯盛鹏](https://github.com/dayday12)
+[35张南](https://github.com/znfrsd)
+[36黄小翠](https://github.com/annabelle6301)
+[37曾思思](https://github.com/zs2364)
+[38李雄俊](https://github.com/lxjyy)
+[39苏彬彬](https://github.com/ssssnnn)
+[40黄鑫鑫](https://github.com/hisangsang)
+
+[42姜智孟](https://github.com/jzm1201)
+[44白炳钿](https://github.com/bbter)
+[45胡利明](https://github.com/a870007720)
+[46张益桐](https://github.com/zyt123456)
+[47许桃美](https://github.com/xutaomei)
 
 ### 移动161
 
