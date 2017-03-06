@@ -115,10 +115,9 @@
 |[16袁健苗](https://github.com/maonii)|[17王挺](https://github.com/wtzjyd)|[18周伊翔](https://github.com/zyxswh)|[19陈波](https://github.com/chenbo666)|[20邵家栋](https://github.com/Airjt)|
 |[21屠鑫波](https://github.com/tuxinbo158)|[22包捷](https://github.com/1997baojie)|[23屠林锋](https://github.com/1998tlf)|[24杨熔倪](https://github.com/jian10)|[25娄文依](https://github.com/lwy19971203)|
 |[26王志豪](https://github.com/zseqsc)|[27郑檬涛](https://github.com/)|[28丁磊](https://github.com/youdady)|[29陈如谊](https://github.com/shelyer)|[30兰庆锋](https://github.com/Onlysteppy)|
-|[32王锟](https://github.com/2016wk)|[33朱善鸿](https://github.com/zjzsh)|[34陈耀泽](https://github.com/EthanChen95)|[35黄书琛](https://github.com/FFFmark)|
-|[36季天浩](https://github.com/Jitianhao)|[37王成铠](https://github.com/Stealth2)|[38娄明磊](https://github.com/DreamTwinkle)|[39张桦](https://github.com/zh1741287533)|[40杨钦沨](https://github.com/qinfengyang)|
-|[41吴义凯](https://github.com/wykkyw)|[42鄢滟麟](https://github.com/Kylin6)|[43卢孙仲](https://github.com/wzlsz)|[44郑文汉](https://github.com/zhengwenhan)|[45杨志谦](https://github.com/yzq007)|
-|[46王昭锦](https://github.com/wangzhaojin66)|
+|[32王锟](https://github.com/2016wk)|[33朱善鸿](https://github.com/zjzsh)|[34陈耀泽](https://github.com/EthanChen95)|[35黄书琛](https://github.com/FFFmark)|[36季天浩](https://github.com/Jitianhao)|
+|[37王成铠](https://github.com/Stealth2)|[38娄明磊](https://github.com/DreamTwinkle)|[39张桦](https://github.com/zh1741287533)|[40杨钦沨](https://github.com/qinfengyang)|[41吴义凯](https://github.com/wykkyw)|
+|[42鄢滟麟](https://github.com/Kylin6)|[43卢孙仲](https://github.com/wzlsz)|[44郑文汉](https://github.com/zhengwenhan)|[45杨志谦](https://github.com/yzq007)|[46王昭锦](https://github.com/wangzhaojin66)|
 
 ### 历届学友
 #### 软件151
