@@ -92,17 +92,12 @@
 ## 学友链接
 
 ### 软件161
-[01姚宇飞](https://github.com/cabiage)
-[02朱学成](https://github.com/zhuxuecheng) 
-[03岑灏](https://github.com/youxuezhe)
-[04朱晨煜](https://github.com/hasaky)
-[05宋治民](https://github.com/songzm)
-[06潘雪](https://github.com/liuxue1234)
-[07钱伟杰](https://github.com/qq82800620)
-[08姜凯](https://github.com/huojibufei)
-[09陆文涛](https://github.com/fanhuazz)
-[10朱雨婷](https://github.com/zhuyuting666)
- 
+
+| 学友  | 学友        | 学友        | 学友        | 学友        |
+|:---:|:-------:|:------:|:-------:|:-----:|
+|[01姚宇飞](https://github.com/cabiage)|[02朱学成](https://github.com/zhuxuecheng) |[03岑灏](https://github.com/youxuezhe)|[04朱晨煜](https://github.com/hasaky)|[05宋治民](https://github.com/songzm)|
+|[06潘雪](https://github.com/liuxue1234)|[07钱伟杰](https://github.com/qq82800620)|[08姜凯](https://github.com/huojibufei)|[09陆文涛](https://github.com/fanhuazz)|[10朱雨婷](https://github.com/zhuyuting666)|
+
 [11吕涵之](https://github.com/lvhanzhi)
 [12沈丹青](https://github.com/sdq997)
 [13钱都](https://github.com/adyson55)
