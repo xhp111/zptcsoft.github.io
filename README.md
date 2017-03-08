@@ -110,11 +110,11 @@
 | 1  | 2       | 3        |4      | 5       |
 |:---|:-------|:------|:-------|:-----|
 |[01朱浩然](https://github.com/shoucaishuai)|[02张振栋](https://github.com/zhangdadashuai) |[03傅禄翔](https://github.com/flxKing)|[04严建淮](https://github.com/yanjianhuai)|[05徐凯楠](https://github.com/EightPercent)|
-|[06李康康](https://github.com/lkkzxc)|[07陈克行](https://github.com/ckhang)|[08韩浩浩](https://github.com/Extkai)|[09邬远峰](https://github.com/wuweierzhi)|[10徐晗](https://github.com/zhuyuting666)|
+|[06李康康](https://github.com/lkkzxc)|[07陈克行](https://github.com/ckhang)|[08韩浩浩](https://github.com/Extkai)|[09邬远峰](https://github.com/wuweierzhi)|[10徐晗](https://github.com/FullOfVigour)|
 |[11施希杰](https://github.com/shixijie)|[12章驰恒](https://github.com/zhangchiheng)|[13夏彬慧](https://github.com/zjxbh)|[14张浩东](https://github.com/LaughingDong)|[15潘承彬](https://github.com/Panchengbin)|
 |[16袁健苗](https://github.com/maonii)|[17王挺](https://github.com/wtzjyd)|[18周伊翔](https://github.com/zyxswh)|[19陈波](https://github.com/chenbo666)|[20邵家栋](https://github.com/Airjt)|
 |[21屠鑫波](https://github.com/tuxinbo158)|[22包捷](https://github.com/1997baojie)|[23屠林锋](https://github.com/1998tlf)|[24杨熔倪](https://github.com/jian10)|[25娄文依](https://github.com/lwy19971203)|
-|[26王志豪](https://github.com/zseqsc)|[27郑檬涛](https://github.com/)|[28丁磊](https://github.com/youdady)|[29陈如谊](https://github.com/shelyer)|[30兰庆锋](https://github.com/Onlysteppy)|
+|[26王志豪](https://github.com/zseqsc)|[27郑檬涛](https://github.com/)|[28丁磊](https://github.com/youdady)|[29陈如谊](https://github.com/shelyer)|[31兰庆锋](https://github.com/Lanbabaa)|
 |[32王锟](https://github.com/2016wk)|[33朱善鸿](https://github.com/zjzsh)|[34陈耀泽](https://github.com/EthanChen95)|[35黄书琛](https://github.com/FFFmark)|[36季天浩](https://github.com/Jitianhao)|
 |[37王成铠](https://github.com/Stealth2)|[38娄明磊](https://github.com/DreamTwinkle)|[39张桦](https://github.com/zh1741287533)|[40杨钦沨](https://github.com/qinfengyang)|[41吴义凯](https://github.com/wykkyw)|
 |[42鄢滟麟](https://github.com/Kylin6)|[43卢孙仲](https://github.com/wzlsz)|[44郑文汉](https://github.com/zhengwenhan)|[45杨志谦](https://github.com/yzq007)|[46王昭锦](https://github.com/wangzhaojin66)|
@@ -235,12 +235,15 @@
 6. 18张虓敏发表发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/207)，平时成绩加10分。
 7. 19陈黎铭、31陈汇参与帖子讨论，平时成绩加5分。
 8. 11吕涵之整理sublime text和emmet的使用教程，平时成绩加40分。
+9. 11吕涵之回答帖子，平时成绩5分。
+10. 12沈丹青建立分享帖[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/203)，平时成绩加20分。
+12. 18 张虓敏、31陈汇、36黄小翠分享sublime text使用教程平时成绩加20分。
 
 
 ### 移动161
-1. 徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/204)，引领潮流，平时成绩加10分。
-2. 鄢滟麟 发表【求助帖】[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/205)，平时成绩加10分。
-3. 
+1. 10徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/204)，引领潮流，平时成绩加10分。
+2. 42鄢滟麟 发表【求助帖】[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/205)，平时成绩加10分。
+3. 10徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/215)，讨论`base`，平时成绩加10分。
 
 ### 历史纪录
 #### 软件151 
