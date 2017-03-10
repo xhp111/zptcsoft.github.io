@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        line-height: 1.573;
+        font-size: 14px;
+    }
+    
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+    
+    .video-bg-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -10000;
+        overflow: hidden;
+    }
+    
+    #video-bg-el {
+        position: absolute;
+        left: 0;
+        top: 0;
+        min-height: 100%;
+        min-width: 100%;
+    }
+    
+    .content {
+        color: white;
+        text-align: center;
+        padding-top: 15%;
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100%;
+    }
+    
+    .content h1 {
+        font-size: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .content h1+ p {
+        color: #eee;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    
+    #footer {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: white;
+        padding: 10px;
+        text-align: right;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="video-bg-wrap">
+        <video id="video-bg-el" preload="auto" autoplay="true" loop="true" muted="muted">
+            <source src="http://7xqm1n.com1.z0.glb.clouddn.com/video/storm_raindrops_on_window.mp4" type="video/mp4"> Your browser don't support html5 vedio, please update your browser.
+            </vedio>
+    </div>
+    <div class="content">
+        <h1>Fullscreen vedio background demo</h1>
+        <p>Demo to show how to make a fullscreen vedio background</p>
+        <div id="footer">
+            <p> jQuery plugin: <a href="">jQuery.videoBG.js</a> </p>
+            <p> <a href="https://www.youtube.com/watch?v=W2y33Q2lf3k">awsome tutorial</a> </p>
+        </div>
+    </div>
+</body>
+
+</html>

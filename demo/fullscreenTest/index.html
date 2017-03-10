@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body {
+				background-color: #F1F1F1;
+				font-family: sans-serif;
+				font-weight: normal;
+				line-height: 2;
+				margin: 0 auto;
+				padding: 0;
+				text-align: center;
+			}
+			
+			* {
+				margin: 0;
+				padding: 0;
+				-webkit-box-sizing: content-box;
+				-moz-box-sizing: content-box;
+				box-sizing: content-box;
+			}
+			
+			a {
+				color: #08C;
+				text-decoration: none;
+			}
+			
+			h1,
+			h2 {
+				color: #08F;
+				font-weight: 100;
+				margin: 0 auto;
+				padding: 20px 0px 30px;
+			}
+			
+			p {
+				color: #555;
+				font-size: 18px;
+				font-weight: 100;
+				letter-spacing: 1px;
+				line-height: 1.25;
+				padding: 10px 20%;
+			}
+			
+			.wrapper {
+				height: auto;
+				width: initial;
+				margin: 20px auto;
+				padding: 5px 5%;
+				position: relative;
+				overflow: hidden;
+				text-align: center;
+			}
+			
+			.html5-fullscreen-api {
+				border: 10px solid #fff;
+				box-shadow: 0 0 0 1px #ccc;
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0 3px 10px;
+				overflow: hidden;
+				padding: 0;
+				position: relative;
+				max-width: 300px;
+			}
+			
+			.html5-fullscreen-api img {
+				display: block;
+				width: 100%;
+			}
+			
+			.html5-fullscreen-api .fa.fa-expand,
+			.html5-fullscreen-api .fa.fa-search-plus {
+				z-index: 100;
+				display: inline-block;
+				width: 32px;
+				height: 30px;
+				margin: 10px 6px 10px 10px;
+				position: absolute;
+				top: 0;
+				right: 0;
+				cursor: pointer;
+			}
+			
+			.html5-fullscreen-api .fa.fa-search-plus {
+				top: auto;
+				right: auto;
+				left: 0;
+				bottom: 0;
+			}
+			
+			.html5-fullscreen-api .fa.fa-search-plus:before {
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+				font-size: 30px;
+				color: rgba(255, 255, 255, .5);
+				cursor: pointer;
+			}
+			
+			.html5-fullscreen-api .fa.fa-expand:before {
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+				font-size: 25px;
+				color: rgba(255, 255, 255, .5);
+				cursor: pointer;
+				content: "\f065";
+			}
+			
+			.html5-fullscreen-api .fa.fa-expand:hover:before,
+			.html5-fullscreen-api .fa.fa-search-plus:hover:before {
+				color: rgb(255, 255, 255);
+			}
+			
+			#fullscreen:-webkit-full-screen.html5-fullscreen-api {
+				border: 0;
+				display: block;
+				margin: 0 auto;
+				max-width: 100%;
+				padding: 0;
+				height: 100%;
+				vertical-align: none;
+			}
+			
+			#fullscreen:-webkit-full-screen .fa.fa-expand {
+				margin: 10px 5px 0 auto;
+			}
+			
+			#fullscreen:-webkit-full-screen .fa.fa-search-plus {
+				display: none;
+			}
+			
+			#fullscreen:-webkit-full-screen .fa.fa-expand:hover:before {
+				color: #FFF;
+			}
+			
+			#fullscreen:-webkit-full-screen .fa.fa-expand:before {
+				color: rgba(255, 255, 255, .5);
+				content: "\f066";
+			}
+			
+			#fullscreen:-webkit-full-screen {
+				background: #202020;
+				width: 100%;
+				height: 100%;
+			}
+			
+			#fullscreen:-webkit-full-screen img {
+				display: block;
+				width: initial;
+				height: inherit;
+				margin: 0 auto;
+				border: 0;
+				box-shadow: 0px 0px 50px #000;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				-moz-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
+			
+			.zoomLens {
+				border: 5px solid white !important;
+				box-shadow: 0 0 0 1px grey;
+				overflow: hidden;
+			}
+			
+			.zoomContainer {}
+			
+			footer {
+				background-color: #252525;
+				margin: 0 auto;
+				padding: 50px 0px 50px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<h1>Gallery Images & Zoom & Fullscreen</h1>
+		<p>A gallery of images that hate a zoom and a fullscreen in the info of the zoom is a lens of round. To more information enter,
+			<a href=""> here. </a> Or in some case this is just in an example for see.</p>
+		<section class="wrapper">
+			<h2>Full-Screen & Zoom-Lens</h2>
+			<div id="fullscreen" class="html5-fullscreen-api">
+				<img src="http://goo.gl/Hj0L6I" data-zoom-image="http://goo.gl/Hj0L6I" />
+				<span class="fa fa-expand"></span>
+				<span class="fa fa-search-plus"></span>
+			</div>
+		</section>
+
+		<section class="wrapper">
+			<h2>Zoom - Lens</h2>
+			<div id="fullscreen" class="html5-fullscreen-api">
+				<img src="http://goo.gl/fnq5NB" data-zoom-image="http://goo.gl/fnq5NB" />
+				<span class="fa fa-search-plus"></span>
+			</div>
+			<div id="fullscreen" class="html5-fullscreen-api">
+				<img src="http://goo.gl/w9LQF5" data-zoom-image="http://goo.gl/w9LQF5" />
+				<span class="fa fa-search-plus"></span>
+			</div>
+			<div id="fullscreen" class="html5-fullscreen-api">
+				<img src="http://goo.gl/zN2njZ" data-zoom-image="http://goo.gl/zN2njZ" />
+				<span class="fa fa-search-plus"></span>
+			</div>
+			<div id="fullscreen" class="html5-fullscreen-api">
+				<img src="http://goo.gl/3AWIPM" data-zoom-image="http://goo.gl/3AWIPM" />
+				<span class="fa fa-search-plus"></span>
+			</div>
+			<div id="fullscreen" class="html5-fullscreen-api">
+				<img src="http://goo.gl/VigKbX" data-zoom-image="http://goo.gl/VigKbX" />
+				<span class="fa fa-search-plus"></span>
+			</div>
+			<div id="fullscreen" class="html5-fullscreen-api">
+				<img src="http://goo.gl/QJLHpB" data-zoom-image="http://goo.gl/QJLHpB" />
+				<span class="fa fa-search-plus"></span>
+			</div>
+			<div id="fullscreen" class="html5-fullscreen-api">
+				<img src="http://goo.gl/iNHrJh" data-zoom-image="http://goo.gl/iNHrJh" />
+				<span class="fa fa-search-plus"></span>
+			</div>
+			<div id="fullscreen" class="html5-fullscreen-api">
+				<img src="http://goo.gl/qWCRZ0" data-zoom-image="http://goo.gl/qWCRZ0" />
+				<span class="fa fa-search-plus"></span>
+			</div>
+
+		</section>
+		<footer>
+			<p>2014 Copyright
+				<a href="/">romswellparian</a>
+			</p>
+		</footer>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="//www.elevateweb.co.uk/wp-content/themes/radial/jquery.elevatezoom.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				$('.fa-expand').on('click', function() {
+					var elem = document.getElementById('fullscreen');
+					if(document.webkitFullscreenElement) {
+						document.webkitCancelFullScreen();
+					} else {
+						elem.webkitRequestFullScreen();
+					};
+				});
+
+				$(".fa-search-plus").click(function() {
+					$("img").elevateZoom({
+						zoomType: "lens",
+						lensShape: "round",
+						lensSize: 250
+					});
+				});
+
+				$(".wrapper").click(function() {
+					$(".zoomLens").remove()
+				});
+				$(".wrapper").mouseover(function() {
+					$(".zoomLens").remove()
+				});
+
+			});
+		</script>
+	</body>
+
+</html>
