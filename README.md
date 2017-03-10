@@ -77,6 +77,8 @@
 14. [CSS选择器](//zptcsoft.github.io/ppt/14.htm)
 15. [CSS边框](//zptcsoft.github.io/ppt/15.htm)--[border实验](//zptcsoft.github.io/ppt/demos/border.html)--[border实验02](//zptcsoft.github.io/ppt/demos/border02.html)
 
+30. [audio元素](//zptcsoft.github.io/ppt/30.htm)
+
 ## 课程资源
 0.  自制[在线html编辑器](//zptcsoft.github.io/ppt/demos/editor.html)。
 1.  著名常用web学习网站[w3school](//www.w3school.com.cn/)，入门必备。
