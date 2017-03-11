@@ -241,12 +241,14 @@
 9. 11吕涵之回答帖子，平时成绩5分。
 10. 12沈丹青建立分享帖[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/203)，平时成绩加20分。
 12. 18 张虓敏、31陈汇、36黄小翠分享sublime text使用教程平时成绩加20分。
-
+13. 11吕涵之勤奋学习、观察学习，建立问题贴[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/219),平时成绩加10分。
+14. 31陈汇回答帖子，平时成绩加5分。
 
 ### 移动161
 1. 10徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/204)，引领潮流，平时成绩加10分。
 2. 42鄢滟麟 发表【求助帖】[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/205)，平时成绩加10分。
 3. 10徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/215)，讨论`base`，平时成绩加10分。
+4. 42鄢滟麟回答帖子，平时成绩加5分。
 
 ### 历史纪录
 #### 软件151 
