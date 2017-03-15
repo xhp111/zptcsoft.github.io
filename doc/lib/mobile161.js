@@ -188,7 +188,7 @@ angular.module('test', ['objectTable'])
 			{
 				id: 10,
 				name: "徐晗",
-				preExam1: 0,
+				preExam1: '免考',
 				preExam2: 0,
 				preExam3: 0,
 				work01: 0,
@@ -937,6 +937,6 @@ angular.module('test', ['objectTable'])
     }   
     
     $scope.getGrade($scope.data);
-    $scope.data.time='2017.03.11';
+    $scope.data.time='2017.03.15';
     //$scope.getGrade($scope.data2);
 })

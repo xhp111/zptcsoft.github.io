@@ -242,12 +242,16 @@
 12. 18 张虓敏、31陈汇、36黄小翠分享sublime text使用教程平时成绩加20分。
 13. 11吕涵之勤奋学习、观察学习，建立问题贴[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/219),平时成绩加10分。
 14. 31陈汇回答帖子，平时成绩加5分。
+15. 31陈汇建立**问题贴**[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/220)，平时成绩加10分。
+16. 11吕涵之、18张虓敏在**知识分享活动**中，通过做教程、试讲课等形式进行知识分享，平时成绩加30分！
+
 
 ### 移动161
 1. 10徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/204)，引领潮流，平时成绩加10分。
 2. 42鄢滟麟 发表【求助帖】[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/205)，平时成绩加10分。
 3. 10徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/215)，讨论`base`，平时成绩加10分。
 4. 42鄢滟麟回答帖子，平时成绩加5分。
+5. 10徐晗在**知识分享活动**中，通过做教程、试讲课等形式进行知识分享，引领潮流，免考免考，祝贺！
 
 ### 历史纪录
 #### 软件151 
@@ -282,11 +286,11 @@
 本活动自愿参与，请同学预先学习某个知识点，然后上课的时候**当老师**把学习的成果讲解给大家，目的有二，一是鼓励自学，二是锻炼胆量。
 
 ### 软件161
-1. 吕涵之
-2. 张虓敏
+1. 吕涵之 :heavy_check_mark:
+2. 张虓敏 :heavy_check_mark:
 
 ### 移动161
-1. 徐晗
+1. 徐晗 :heavy_check_mark:
 
 ### 历届学友
 
