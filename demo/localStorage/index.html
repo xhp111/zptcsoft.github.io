@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<input id="setBg" type="color"/>
+		<script type="text/javascript">
+			var oSetBg=document.getElementById("setBg");
+			var bgColor;
+			oSetBg.addEventListener("change",setBg);
+			function setBg(){
+				bgColor=oSetBg.value;
+				document.body.style.background=bgColor;
+				localStorage.setItem('bgC',bgColor);
+			}
+			document.addEventListener('readystatechange',loadBg);
+			function loadBg(){
+				//alert("load");
+				if(localStorage.getItem('bgC')=='undefined'){
+					
+				}else{
+					bgColor=localStorage.getItem('bgC');
+					document.body.style.background=bgColor;
+				}
+			}
+		</script>
+	</body>
+</html>

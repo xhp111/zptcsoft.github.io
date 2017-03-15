@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<input type="file" />
+		<input type="text" name="" id="" />
+		<input type="password" />
+		<input type="submit" name="" id="" value="提交" />
+		<input type="reset" name="" id="" value="重置" />
+		<input type="hidden" name="" id="" value="" />
+		<input type="checkbox" name="" id="" value="" />
+		<input type="radio" />
+		
+		<input type="range" />
+		<input type="color" name="" id="" value="" />
+		<input type="time" name="" id="" value="" />
+		<input type="date" name="" id="" value="" />
+		<input type="number" name="" id="" value="" />
+		<!--
+			h5 新增加了一些交互的input  date类型可以获取日期
+			插件   jquery.datepicker  bootstrap的插件
+		-->
+		<!--
+			上线之后，网站打不开？
+				IE8  xp操作系统   360浏览器（双核）、qq浏览器、百度浏览器（好多双核、三核浏览器）
+					兼容模式    调用操作系统里的IE
+					极速模式    webkit内核（chrome、safari）
+			做项目调研
+				客户   需求是什么
+					最低兼容到哪里（ie8？ ie6？）
+					
+			做项目时
+				如果要兼容到ie8？
+					设计、原型时，所有不适用ie8的高级效果都不用（兼顾低端）
+					设计、原型时，现暂时不管ie8，所有的效果都在标准浏览器里做，后期做调试的时候，ie8对应的高级效果去掉
+			
+			
+			假设已经差不多做好项目
+				1. 专门针对低版本浏览器，做一个低版本（去掉高级效果）
+				2. 逐个功能逐个调试，找出不兼容ie8的功能，进行调整。
+					假设某个功能存在兼容性问题
+						某个功能低版本浏览器完全不支持，找支持的第三方插件
+						某个功能支持有问题，位置问题，css问题   ie6会比标准浏览器多3个像素
+									  动画效果效果，animation ，有可能需要加前缀、有可能加 animation-polyfill
+						
+		-->
+		
+	</body>
+</html>
