@@ -4,6 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 		<style type="text/css">
 			body {
 				background-color: #F1F1F1;
@@ -64,7 +65,7 @@
 				overflow: hidden;
 				padding: 0;
 				position: relative;
-				max-width: 300px;
+				max-width: 600px;
 			}
 			
 			.html5-fullscreen-api img {
@@ -131,7 +132,7 @@
 			}
 			
 			#fullscreen:-webkit-full-screen .fa.fa-search-plus {
-				display: none;
+				display: block;
 			}
 			
 			#fullscreen:-webkit-full-screen .fa.fa-expand:hover:before {
@@ -188,47 +189,10 @@
 		<section class="wrapper">
 			<h2>Full-Screen & Zoom-Lens</h2>
 			<div id="fullscreen" class="html5-fullscreen-api">
-				<img src="http://goo.gl/Hj0L6I" data-zoom-image="http://goo.gl/Hj0L6I" />
+				<img src="//zptcsoft.github.io/ppt/img/01/content.png" data-zoom-image="//zptcsoft.github.io/ppt/img/01/content.png" />
 				<span class="fa fa-expand"></span>
 				<span class="fa fa-search-plus"></span>
 			</div>
-		</section>
-
-		<section class="wrapper">
-			<h2>Zoom - Lens</h2>
-			<div id="fullscreen" class="html5-fullscreen-api">
-				<img src="http://goo.gl/fnq5NB" data-zoom-image="http://goo.gl/fnq5NB" />
-				<span class="fa fa-search-plus"></span>
-			</div>
-			<div id="fullscreen" class="html5-fullscreen-api">
-				<img src="http://goo.gl/w9LQF5" data-zoom-image="http://goo.gl/w9LQF5" />
-				<span class="fa fa-search-plus"></span>
-			</div>
-			<div id="fullscreen" class="html5-fullscreen-api">
-				<img src="http://goo.gl/zN2njZ" data-zoom-image="http://goo.gl/zN2njZ" />
-				<span class="fa fa-search-plus"></span>
-			</div>
-			<div id="fullscreen" class="html5-fullscreen-api">
-				<img src="http://goo.gl/3AWIPM" data-zoom-image="http://goo.gl/3AWIPM" />
-				<span class="fa fa-search-plus"></span>
-			</div>
-			<div id="fullscreen" class="html5-fullscreen-api">
-				<img src="http://goo.gl/VigKbX" data-zoom-image="http://goo.gl/VigKbX" />
-				<span class="fa fa-search-plus"></span>
-			</div>
-			<div id="fullscreen" class="html5-fullscreen-api">
-				<img src="http://goo.gl/QJLHpB" data-zoom-image="http://goo.gl/QJLHpB" />
-				<span class="fa fa-search-plus"></span>
-			</div>
-			<div id="fullscreen" class="html5-fullscreen-api">
-				<img src="http://goo.gl/iNHrJh" data-zoom-image="http://goo.gl/iNHrJh" />
-				<span class="fa fa-search-plus"></span>
-			</div>
-			<div id="fullscreen" class="html5-fullscreen-api">
-				<img src="http://goo.gl/qWCRZ0" data-zoom-image="http://goo.gl/qWCRZ0" />
-				<span class="fa fa-search-plus"></span>
-			</div>
-
 		</section>
 		<footer>
 			<p>2014 Copyright
@@ -251,17 +215,10 @@
 
 				$(".fa-search-plus").click(function() {
 					$("img").elevateZoom({
-						zoomType: "lens",
-						lensShape: "round",
-						lensSize: 250
+//						zoomType: "lens",
+//						lensShape: "round",
+//						lensSize: 250
 					});
-				});
-
-				$(".wrapper").click(function() {
-					$(".zoomLens").remove()
-				});
-				$(".wrapper").mouseover(function() {
-					$(".zoomLens").remove()
 				});
 
 			});
