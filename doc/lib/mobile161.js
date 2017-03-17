@@ -296,7 +296,7 @@ angular.module('test', ['objectTable'])
 				work03: 5,
 				work04: 5,
 				work05: 5,
-				work06: 0,
+				work06: 5,
 				work07: 0,
 				work08: 0,
 				work09: 0,
