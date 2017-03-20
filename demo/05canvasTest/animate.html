@@ -1,31 +1,76 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<style type="text/css">
+			canvas {
+				background-color: #000;
+			}
+		</style>
+		<!--<script src="//raw.githubusercontent.com/darius/requestAnimationFrame/master/requestAnimationFrame.min.js"></script>-->
 	</head>
+
 	<body>
-		<canvas id="myCanvas" width="600" height="600">
+		<canvas id="myCanvas" width="1200" height="600">
 			您的浏览器不支持canvas，建议您升级到现代浏览器。
 		</canvas>
 		<script type="text/javascript">
-			var myC=document.getElementById("myCanvas");
-			var ctx=myC.getContext("2d");
-			var r=20;
-			var y=0;
-			ctx.lineWidth=2;
-			ctx.strokeStyle="aquamarine";
-			
-			setInterval('run()',10);
-			
-			function run(){
-				r+=0.01;
-				y+=0.1;
-				
-				ctx.clearRect(0,0,600,600);
-				ctx.arc(50,50,r,0,y);
-				ctx.stroke();
-			}
+			var canvas = document.getElementById("myCanvas");
+			var context = canvas.getContext("2d");
+			var posX = 20,
+				posY = 100,
+				vx = Math.random() * 10,
+				vy = -10,
+				gravity = 1;
+
+			//			setInterval(function() {
+			//				function run(){
+			//					posX += vx;
+			//					posY += vy;
+			//	
+			//					if(posY > canvas.height * 0.8) {
+			//						vy *= -0.75;
+			//						vx *= 0.8;
+			//						posY = canvas.height * 0.8;
+			//					}
+			//	
+			//					vy += gravity;
+			//					
+			//					context.clearRect(0, 0, canvas.width, canvas.height);
+			//					context.beginPath();
+			//					context.fillStyle = "white";
+			//	
+			//					context.arc(posX, posY, 25, 0, Math.PI * 2, true);
+			//					context.closePath();
+			//					context.fill();
+			//				}
+			//			},30);
+
+			(function run() {
+				posX += vx;
+				posY += vy;
+
+				if(posY > canvas.height * 0.8) {
+					vy *= -0.75;
+					vx *= 0.8;
+					posY = canvas.height * 0.8;
+				}
+
+				vy += gravity;
+
+				context.clearRect(0, 0, canvas.width, canvas.height);
+				context.beginPath();
+				context.fillStyle = "white";
+
+				context.arc(posX, posY, 25, 0, Math.PI * 2, true);
+				context.closePath();
+				context.fill();
+
+				requestAnimationFrame(run);
+			})();
 		</script>
 	</body>
+
 </html>
