@@ -2,74 +2,97 @@
 <html>
 
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8" />
 		<title></title>
 		<style type="text/css">
 			canvas {
-				background-color: #000;
+				width: 1000px;
+				height: 600px;
+				background-color: rgba(0, 0, 0, .3);
+				border: 5px solid #fff;
+				box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
 			}
 		</style>
-		<!--<script src="//raw.githubusercontent.com/darius/requestAnimationFrame/master/requestAnimationFrame.min.js"></script>-->
 	</head>
 
 	<body>
-		<canvas id="myCanvas" width="1200" height="600">
-			您的浏览器不支持canvas，建议您升级到现代浏览器。
-		</canvas>
+		<canvas id="myCanvas" width="1000" height="600"></canvas>
+		<script type="text/javascript">
+			if(!Date.now)
+				Date.now = function() {
+					return new Date().getTime();
+				};
+
+			(function() {
+				'use strict';
+
+				var vendors = ['webkit', 'moz'];
+				for(var i = 0; i < vendors.length && !window.requestAnimationFrame; ++i) {
+					var vp = vendors[i];
+					window.requestAnimationFrame = window[vp + 'RequestAnimationFrame'];
+					window.cancelAnimationFrame = (window[vp + 'CancelAnimationFrame'] ||
+						window[vp + 'CancelRequestAnimationFrame']);
+				}
+				if(/iP(ad|hone|od).*OS 6/.test(window.navigator.userAgent) // iOS6 is buggy
+					||
+					!window.requestAnimationFrame || !window.cancelAnimationFrame) {
+					var lastTime = 0;
+					window.requestAnimationFrame = function(callback) {
+						var now = Date.now();
+						var nextTime = Math.max(lastTime + 16, now);
+						return setTimeout(function() {
+								callback(lastTime = nextTime);
+							},
+							nextTime - now);
+					};
+					window.cancelAnimationFrame = clearTimeout;
+				}
+			}());
+		</script>
 		<script type="text/javascript">
 			var canvas = document.getElementById("myCanvas");
-			var context = canvas.getContext("2d");
-			var posX = 20,
-				posY = 100,
-				vx = Math.random() * 10,
-				vy = -10,
-				gravity = 1;
+			var ctx = canvas.getContext("2d");
+			var x = 20,
+				y = 20;
+			var vx = Math.random() * 5;
+			var vy = Math.random() * 5;
+			var g = 0.2;
+			var color=['red','pink','orange','gray','brown'];
+			ctx.fillStyle = "#FFFFFF";
 
-			//			setInterval(function() {
-			//				function run(){
-			//					posX += vx;
-			//					posY += vy;
-			//	
-			//					if(posY > canvas.height * 0.8) {
-			//						vy *= -0.75;
-			//						vx *= 0.8;
-			//						posY = canvas.height * 0.8;
-			//					}
-			//	
-			//					vy += gravity;
-			//					
-			//					context.clearRect(0, 0, canvas.width, canvas.height);
-			//					context.beginPath();
-			//					context.fillStyle = "white";
-			//	
-			//					context.arc(posX, posY, 25, 0, Math.PI * 2, true);
-			//					context.closePath();
-			//					context.fill();
-			//				}
-			//			},30);
-
+			//setInterval("run()",30);
 			(function run() {
-				posX += vx;
-				posY += vy;
+				//var n=parseInt(Math.random()*5);
+				//console.log("dd");
+				x += vx;
+				y += vy;
 
-				if(posY > canvas.height * 0.8) {
-					vy *= -0.75;
+				if(y >= 550) {
+					y = 550;
+					vy *= -0.8;
 					vx *= 0.8;
-					posY = canvas.height * 0.8;
 				}
 
-				vy += gravity;
+				vy += g;
 
-				context.clearRect(0, 0, canvas.width, canvas.height);
-				context.beginPath();
-				context.fillStyle = "white";
+				//清除屏幕
+				ctx.clearRect(0, 0, 1000, 600);
+				//重新绘制
+				//ctx.fillStyle=color[n];
+				ctx.beginPath();
+				ctx.arc(x, y, 20, 0, Math.PI * 2);
+				ctx.closePath();
+				ctx.fill();
 
-				context.arc(posX, posY, 25, 0, Math.PI * 2, true);
-				context.closePath();
-				context.fill();
-
+				//setTimeout("run()",30);
 				requestAnimationFrame(run);
 			})();
+			//run();
+			
+			
+			//1. setInterval
+			//2. setTimeout   递归
+			//3. requestAnimationFrame  60   性能上最好的
 		</script>
 	</body>
 
