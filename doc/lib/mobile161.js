@@ -821,7 +821,7 @@ angular.module('test', ['objectTable'])
 				work08: 0,
 				work09: 0,
 				work10: 0,
-				github: 15,
+				github: 45,
 				grade02: 0,
 				grade03: 0
 			},
@@ -937,6 +937,6 @@ angular.module('test', ['objectTable'])
     }   
     
     $scope.getGrade($scope.data);
-    $scope.data.time='2017.03.17';
+    $scope.data.time='2017.03.24';
     //$scope.getGrade($scope.data2);
 })
