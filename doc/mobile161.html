@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="test">
+<head>
+    <meta charset="UTF-8">
+    <title>平时成绩</title>
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/object-table/object-table-style.css">
+    <link rel="stylesheet" type="text/css" href="lib/object-table/themes/blue-dust.css">
+    <link rel="stylesheet" href="lib/data.css">
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/object-table/object-table.js"></script>
+</head>
+<body ng-controller="mainController">
+	<h2>移动应用开发161班平时成绩形成表</h2>
+	<p>更新时间：{{data.time}}</p>
+    <table 
+    class="grade" 
+    object-table 
+    data="data" 
+    display="50" 
+    headers="学号,姓名,免考1,免考2,免考3,
+             作业1,作业2,作业3,作业4,作业5,
+             作业6,作业7,作业8,作业9,作业10,
+     github,平时成绩,期中考试,期末考试,总评成绩" 
+    fields="id, name, preExam1, preExam2, preExam3, 
+            work01, work02, work03, work04, work05, 
+            work06, work07, work08, work09, work10,
+            github, grade01, grade02, grade03, grade04" 
+    paging="true"
+    sorting="simple"  
+    search="true">
+    <caption>移动161平时成绩表</caption>
+        <tbody>
+            <tr>
+            	<td>{{item.id}}</td>
+                <td>{{item.name}}</td>
+                <td>{{item.preExam1}}</td>
+                <td>{{item.preExam2}}</td>
+                <td>{{item.preExam3}}</td>
+                <td>{{item.work01}}</td>
+                <td>{{item.work02}}</td>
+                <td>{{item.work03}}</td>
+                <td>{{item.work04}}</td>
+                <td>{{item.work05}}</td>
+                <td>{{item.work06}}</td>
+                <td>{{item.work07}}</td>
+                <td>{{item.work08}}</td>
+                <td>{{item.work09}}</td>
+                <td>{{item.work10}}</td>
+                <td>{{item.github}}</td>
+                <td>{{item.grade01}}</td>
+                <td>{{item.grade02}}</td>
+                <td>{{item.grade03}}</td>
+                <td>{{item.grade04}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="lib/mobile161.js"></script>
+</body>
+</html>

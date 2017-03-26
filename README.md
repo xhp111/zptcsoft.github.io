@@ -76,27 +76,50 @@
 13. [CSS初步](//zptcsoft.github.io/ppt/13.htm)
 14. [CSS选择器](//zptcsoft.github.io/ppt/14.htm)
 15. [CSS边框](//zptcsoft.github.io/ppt/15.htm)--[border实验](//zptcsoft.github.io/ppt/demos/border.html)--[border实验02](//zptcsoft.github.io/ppt/demos/border02.html)
+30. [Audio元素](//zptcsoft.github.io/ppt/30.htm)
 
 ## 课程资源
 0.  自制[在线html编辑器](//zptcsoft.github.io/ppt/demos/editor.html)。
 1.  著名常用web学习网站[w3school](//www.w3school.com.cn/)，入门必备。
 2.  [html标签参考手册](http://www.w3school.com.cn/tags/html_ref_byfunc.asp), [html 参考手册官方英文](https://www.w3.org/TR/html-markup/), [html5元素周期表](//zptcsoft.github.io/html5-elements-periodic-table/)
-3.  [css3手册在线版](//css.doyoe.com/)，[css3手册下载](//css.doyoe.com/css.chm)，[css手册本地版](//zptcsoft.github.io/css3/)
-4.  史上最性感的编辑器-[**sublimetext**](www.sublimetext.com/)，[安装步骤](soft/01install sublime_text.md)，**sublime text常用插件集成版** [百度网盘下载](//pan.baidu.com/s/1nubND8l), [学习资源](//www.jianshu.com/p/d1b9a64e2e37)。
+3.  [css3手册在线版](http://css.doyoe.com/)，[css3手册下载](//css.doyoe.com/css.chm)，[css手册本地版](//zptcsoft.github.io/css3/)
+4.  史上最性感的编辑器-[**sublimetext**](www.sublimetext.com/), [安装步骤](https://github.com/zptcsoft/zptcsoft.github.io/blob/master/soft/01install%20sublime_text.md) , **sublime text常用插件集成版** [百度网盘下载](//pan.baidu.com/s/1nubND8l), [学习资源](//www.jianshu.com/p/d1b9a64e2e37)。
 5.  **GithubDesktop安装**，首先安装[**.net Framework 4.5**](//www.microsoft.com/zh-cn/download/details.aspx?id=30653), 其次解压缩安装**Github Desktop**[百度网盘下载](//pan.baidu.com/s/1i4bVR4T)。
-6. [Github Desktop使用教程](https://github.com/zptcsoft/zptcsoft.github.io/blob/master/soft/02HowToUseGithubDesktop.md), [Pull Request教程](), [廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+6. [Github Desktop使用教程](https://github.com/zptcsoft/zptcsoft.github.io/blob/master/soft/02HowToUseGithubDesktop.md), [廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 7.  网站制作[视频教程](http://v.dxsbb.com/topiclist/wangzhan.html)， 请大家帮忙整理网络系列学习教程。
 8. 采色软件colorspro[软件下载](http://pan.baidu.com/s/1eRvaJj8)，截屏软件FSCapture[网页下载](http://cy.cr173.com/fscapture_gr.zip)，[网盘下载](http://pan.baidu.com/s/1i39tjDj)，密码：7lpr。
 9. 飞速编码的极客工具，手指爽、眼睛爽的开发工具[HBuilder](http://www.dcloud.io/)。
+10. 一个不错的截图、编辑软件[picpick](http://pan.baidu.com/s/1o8yhFPC),支持截取整个网页、取色、量尺等。
 
 ## 学友链接
 
 ### 软件161
 
+| 1  | 2       | 3        |4      | 5       |
+|:---|:-------|:------|:-------|:-----|
+|[01姚宇飞](https://github.com/cabiage)|[02朱学成](https://github.com/zhuxuecheng) |[03岑灏](https://github.com/youxuezhe)|[04朱晨煜](https://github.com/hasaky)|[05宋治民](https://github.com/songzm)|
+|[06潘雪](https://github.com/liuxue1234)|[07钱伟杰](https://github.com/qq82800620)|[08姜凯](https://github.com/huojibufei)|[09陆文涛](https://github.com/fanhuazz)|[10朱雨婷](https://github.com/zhuyuting666)|
+|[11吕涵之](https://github.com/lvhanzhi)|[12沈丹青](https://github.com/sdq997)|[13钱都](https://github.com/adyson55)|[15杜任杰](https://github.com/blackwhite1)|
+|[16叶信哲](https://github.com/yexinzhe)|[17蒋轶聪](https://github.com/jycxh11)|[18张虓敏](https://github.com/wabxq)|[19陈黎铭](https://github.com/fywithme)|[20何桂清](https://github.com/changehe)|
+|[21余银超](https://github.com/yuyinchao)|[22劳锦锞](https://github.com/laojinke)|[23周渠成](https://github.com/agoodnameistotakethedog)|[24徐炜昊](https://github.com/)|
+|[26盛绍斌](https://github.com/miaosha)|[27王海波](https://github.com/)|[28郑涛](https://github.com/z1429170900)|[29郑可琪](https://github.com/shelyer)|[30潘云锋](https://github.com/)|
+|[31陈汇](https://github.com/chen0704)|[33蔡浩然](https://github.com/cryblack)|[34冯盛鹏](https://github.com/dayday12)|[35张南](https://github.com/znfrsd)|
+|[36黄小翠](https://github.com/annabelle6301)|[37曾思思](https://github.com/zs2364)|[38李雄俊](https://github.com/lxjyy)|[39苏彬彬](https://github.com/ssssnnn)|[40黄鑫鑫](https://github.com/hisangsang)|
+|[42姜智孟](https://github.com/jzm1201)|[44白炳钿](https://github.com/bbter)|[45胡利明](https://github.com/a870007720)|[46张益桐](https://github.com/zyt123456)|[47许桃美](https://github.com/xutaomei)|
 
 ### 移动161
 
-
+| 1  | 2       | 3        |4      | 5       |
+|:---|:-------|:------|:-------|:-----|
+|[01朱浩然](https://github.com/shoucaishuai)|[02张振栋](https://github.com/zhangdadashuai) |[03傅禄翔](https://github.com/flxKing)|[04严建淮](https://github.com/yanjianhuai)|[05徐凯楠](https://github.com/EightPercent)|
+|[06李康康](https://github.com/lkkzxc)|[07陈克行](https://github.com/ckhang)|[08韩浩浩](https://github.com/Extkai)|[09邬远峰](https://github.com/wuweierzhi)|[10徐晗](https://github.com/FullOfVigour)|
+|[11施希杰](https://github.com/shixijie)|[12章驰恒](https://github.com/zhangchiheng)|[13夏彬慧](https://github.com/zjxbh)|[14张浩东](https://github.com/LaughingDong)|[15潘承彬](https://github.com/Panchengbin)|
+|[16袁健苗](https://github.com/maonii)|[17王挺](https://github.com/wtzjyd)|[18周伊翔](https://github.com/zyxswh)|[19陈波](https://github.com/chenbo666)|[20邵家栋](https://github.com/Airjt)|
+|[21屠鑫波](https://github.com/tuxinbo158)|[22包捷](https://github.com/1997baojie)|[23屠林锋](https://github.com/1998tlf)|[24杨熔倪](https://github.com/jian10)|[25娄文依](https://github.com/lwy19971203)|
+|[26王志豪](https://github.com/zseqsc)|[27郑檬涛](https://github.com/)|[28丁磊](https://github.com/youdady)|[29陈如谊](https://github.com/shelyer)|[31兰庆锋](https://github.com/Lanbabaa)|
+|[32王锟](https://github.com/2016wk)|[33朱善鸿](https://github.com/zjzsh)|[34陈耀泽](https://github.com/EthanChen95)|[35黄书琛](https://github.com/FFFmark)|[36季天浩](https://github.com/Jitianhao)|
+|[37王成铠](https://github.com/Stealth2)|[38娄明磊](https://github.com/DreamTwinkle)|[39张桦](https://github.com/zh1741287533)|[40杨钦沨](https://github.com/qinfengyang)|[41吴义凯](https://github.com/wykkyw)|
+|[42鄢滟麟](https://github.com/Kylin6)|[43卢孙仲](https://github.com/wzlsz)|[44郑文汉](https://github.com/zhengwenhan)|[45杨志谦](https://github.com/yzq007)|[46王昭锦](https://github.com/wangzhaojin66)|
 
 ### 历届学友
 #### 软件151
@@ -194,7 +217,7 @@
 1. 总评成绩=平时成绩0.2+期中成绩0.3+期末成绩0.5
 2. 请大家踊跃参加免考活动，免考之后，期末考试成绩为100分左右，没有获得免考的同学，可以获得相应的平时成绩奖励。
 3. 平时成绩由作业积分之和，再加上github上获得积分组成。
-4. [成绩列表](//zptcsoft.github.io/doc/index.html)
+4. [成绩列表软件161](//zptcsoft.github.io/doc/soft161.html) [成绩列表移动161](//zptcsoft.github.io/doc/mobile161.html)
 
 ## 加分细则
 1. 每次作业视工作量分值不等，从5分到10分，每次作业贴会准时关闭，不再接受补交。
@@ -206,10 +229,30 @@
 ## 加分快讯
 
 ### 软件161
+1. 01姚宇飞 代我讲解个github desktop软件的使用，平时成绩加10分。
+2. 12沈丹青 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/203)，引领潮流，平时成绩加10分。
+3. 11吕涵之、31陈汇参与Issues讨论，平时成绩各加5分。
+4. 20何桂清发表发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/206)，平时成绩加10分。
+5. 19陈黎铭参与帖子讨论，平时成绩加5分。
+6. 18张虓敏发表发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/207)，平时成绩加10分。
+7. 19陈黎铭、31陈汇参与帖子讨论，平时成绩加5分。
+8. 11吕涵之整理sublime text和emmet的使用教程，平时成绩加40分。
+9. 11吕涵之回答帖子，平时成绩5分。
+10. 12沈丹青建立分享帖[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/203)，平时成绩加20分。
+12. 18 张虓敏、31陈汇、36黄小翠分享sublime text使用教程平时成绩加20分。
+13. 11吕涵之勤奋学习、观察学习，建立问题贴[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/219),平时成绩加10分。
+14. 31陈汇回答帖子，平时成绩加5分。
+15. 31陈汇建立**问题贴**[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/220)，平时成绩加10分。
+16. 11吕涵之、18张虓敏在**知识分享活动**中，通过做教程、试讲课等形式进行知识分享，平时成绩加30分！
 
 
 ### 移动161
-
+1. 10徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/204)，引领潮流，平时成绩加10分。
+2. 42鄢滟麟 发表【求助帖】[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/205)，平时成绩加10分。
+3. 10徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/215)，讨论`base`，平时成绩加10分。
+4. 42鄢滟麟回答帖子，平时成绩加5分。
+5. 10徐晗在**知识分享活动**中，通过做教程、试讲课等形式进行知识分享，引领潮流，免考免考，祝贺！
+6. 42鄢滟麟在**知识分享活动**中，通过做教程、试讲课等形式进行知识分享，讲的非常好，平时成绩加30分。
 
 ### 历史纪录
 #### 软件151 
@@ -244,11 +287,12 @@
 本活动自愿参与，请同学预先学习某个知识点，然后上课的时候**当老师**把学习的成果讲解给大家，目的有二，一是鼓励自学，二是锻炼胆量。
 
 ### 软件161
-
+1. 吕涵之 :heavy_check_mark:
+2. 张虓敏 :heavy_check_mark:
 
 ### 移动161
-
-
+1. 徐晗 :heavy_check_mark:
+2. 鄢滟麟 :heavy_check_mark:
 
 ### 历届学友
 
