@@ -18,13 +18,15 @@
     object-table 
     data="data" 
     display="50" 
-    headers="学号,姓名,免考1,免考2,免考3,
-             作业1,作业2,作业3,作业4,作业5,
-             作业6,作业7,作业8,作业9,作业10,
-     github,平时成绩,期中考试,期末考试,总评成绩" 
+    headers="学号,姓名,免1,免2,免3,
+             作1,作2,作3,作4,作5,
+             作6,作7,作8,作9,作10,
+             作11,作12,作13,作14,作15,
+     github,平时,期中,期末,总评" 
     fields="id, name, preExam1, preExam2, preExam3, 
             work01, work02, work03, work04, work05, 
             work06, work07, work08, work09, work10,
+            work11, work12, work13, work14, work15,
             github, grade01, grade02, grade03, grade04" 
     paging="true"
     sorting="simple"  
@@ -47,6 +49,11 @@
                 <td>{{item.work08}}</td>
                 <td>{{item.work09}}</td>
                 <td>{{item.work10}}</td>
+                <td>{{item.work11}}</td>
+                <td>{{item.work12}}</td>
+                <td>{{item.work13}}</td>
+                <td>{{item.work14}}</td>
+                <td>{{item.work15}}</td>
                 <td>{{item.github}}</td>
                 <td>{{item.grade01}}</td>
                 <td>{{item.grade02}}</td>
