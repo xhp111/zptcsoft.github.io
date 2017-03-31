@@ -22,7 +22,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 60,
 				grade03: 0
 			},
 			{
@@ -42,7 +42,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 50,
 				grade03: 0
 			},
 			{
@@ -62,7 +62,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 80,
 				grade03: 0
 			},
 			{
@@ -82,7 +82,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 75,
 				grade03: 0
 			},
 			{
@@ -102,7 +102,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 85,
 				grade03: 0
 			},
 			{
@@ -122,7 +122,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 65,
 				grade03: 0
 			},
 			{
@@ -142,7 +142,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 100,
 				grade03: 0
 			},
 			{
@@ -162,7 +162,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 100,
 				grade03: 0
 			},
 			{
@@ -182,7 +182,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 10,
 				grade03: 0
 			},
 			{
@@ -202,7 +202,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 20,
-				grade02: 0,
+				grade02: 100,
 				grade03: 0
 			},
 			{
@@ -222,7 +222,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 5,
-				grade02: 0,
+				grade02: 65,
 				grade03: 0
 			},
 			{
@@ -242,7 +242,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 10,
-				grade02: 0,
+				grade02: 60,
 				grade03: 0
 			},
 			{
@@ -262,7 +262,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 100,
 				grade03: 0
 			},
 			{
@@ -282,7 +282,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 70,
 				grade03: 0
 			},
 			{
@@ -302,7 +302,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 66,
 				grade03: 0
 			},
 			{
@@ -322,7 +322,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 70,
 				grade03: 0
 			},
 			{
@@ -342,7 +342,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 70,
 				grade03: 0
 			},
 			{
@@ -362,7 +362,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 60,
 				grade03: 0
 			},
 			{
@@ -382,7 +382,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 60,
 				grade03: 0
 			},
 			{
@@ -402,7 +402,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 80,
 				grade03: 0
 			},
 			{
@@ -422,7 +422,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 65,
 				grade03: 0
 			},
 			{
@@ -442,7 +442,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 65,
 				grade03: 0
 			},
 			{
@@ -462,7 +462,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 80,
 				grade03: 0
 			},
 			{
@@ -482,7 +482,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 80,
 				grade03: 0
 			},
 			{
@@ -502,7 +502,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 100,
 				grade03: 0
 			},
 			{
@@ -522,7 +522,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 85,
 				grade03: 0
 			},
 			{
@@ -542,7 +542,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 85,
 				grade03: 0
 			},
 			{
@@ -562,7 +562,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 40,
 				grade03: 0
 			},
 			{
@@ -582,7 +582,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 60,
 				grade03: 0
 			},
 			{
@@ -602,7 +602,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 5,
-				grade02: 0,
+				grade02: 95,
 				grade03: 0
 			},
 			{
@@ -622,7 +622,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 100,
 				grade03: 0
 			},
 			{
@@ -642,13 +642,13 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 105,
 				grade03: 0
 			},
 			{
 				id: 34,
 				name: "陈耀泽",
-				preExam1: 0,
+				preExam1: '免考',
 				preExam2: 0,
 				preExam3: 0,
 				work01: 5,
@@ -662,7 +662,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 116,
 				grade03: 0
 			},
 			{
@@ -682,7 +682,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 85,
 				grade03: 0
 			},
 			{
@@ -702,7 +702,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 90,
 				grade03: 0
 			},
 			{
@@ -722,7 +722,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 100,
 				grade03: 0
 			},
 			{
@@ -742,7 +742,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 90,
 				grade03: 0
 			},
 			{
@@ -762,7 +762,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 35,
 				grade03: 0
 			},
 			{
@@ -782,7 +782,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 30,
 				grade03: 0
 			},
 			{
@@ -802,13 +802,13 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 85,
 				grade03: 0
 			},
 			{
 				id: 42,
 				name: "鄢滟麟",
-				preExam1: 0,
+				preExam1: '免考',
 				preExam2: 0,
 				preExam3: 0,
 				work01: 5,
@@ -822,7 +822,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 45,
-				grade02: 0,
+				grade02: 115,
 				grade03: 0
 			},
 			{
@@ -842,7 +842,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 90,
 				grade03: 0
 			},
 			{
@@ -862,7 +862,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 85,
 				grade03: 0
 			},
 			{
@@ -882,7 +882,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 80,
 				grade03: 0
 			},
 			{
@@ -902,7 +902,7 @@ angular.module('test', ['objectTable'])
 				work09: 0,
 				work10: 0,
 				github: 0,
-				grade02: 0,
+				grade02: 85,
 				grade03: 0
 			}
 		];
@@ -937,6 +937,6 @@ angular.module('test', ['objectTable'])
     }   
     
     $scope.getGrade($scope.data);
-    $scope.data.time='2017.03.24';
+    $scope.data.time='2017.03.31';
     //$scope.getGrade($scope.data2);
 })
