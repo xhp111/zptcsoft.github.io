@@ -688,7 +688,7 @@ angular.module('test', ['objectTable'])
 			{
 				id: 38,
 				name: "李雄俊",
-				preExam1: 0,
+				preExam1: '免考',
 				preExam2: 0,
 				preExam3: 0,
 				work01: 5,
