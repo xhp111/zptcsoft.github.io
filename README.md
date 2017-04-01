@@ -81,7 +81,7 @@
 14. [CSS选择器](//zptcsoft.github.io/ppt/14.htm)
 15. [CSS背景](//zptcsoft.github.io/ppt/15.htm)
 16. [CSS边框](//zptcsoft.github.io/ppt/16.htm)--[border实验](//zptcsoft.github.io/ppt/demos/border.html)--[border实验02](//zptcsoft.github.io/ppt/demos/border02.html)
-17. [CSS盒模型](//zptcsoft.github.io/ppt/16.htm)
+17. [CSS盒模型](//zptcsoft.github.io/ppt/17.htm)
 30. [Audio元素](//zptcsoft.github.io/ppt/30.htm)
 
 ## 课程资源
@@ -96,6 +96,7 @@
 8. 采色软件colorspro[软件下载](http://pan.baidu.com/s/1eRvaJj8)，截屏软件FSCapture[网页下载](http://cy.cr173.com/fscapture_gr.zip)，[网盘下载](http://pan.baidu.com/s/1i39tjDj)，密码：7lpr。
 9. 飞速编码的极客工具，手指爽、眼睛爽的开发工具[HBuilder](http://www.dcloud.io/)。
 10. 一个不错的截图、编辑软件[picpick](http://pan.baidu.com/s/1o8yhFPC),支持截取整个网页、取色、量尺等。
+11. 简洁、美观的命令行神奇cmder[官方网站](http://cmder.net/), 本课资源[下载](http://pan.baidu.com/s/1bLpGPS)
 
 ## 学友链接
 
@@ -294,7 +295,6 @@
 10. 27黄荣基在Issues提问问题，平时成绩加5分。
 11. 09陈猛在Issues提问问题，平时成绩加5分。
 12. 23江俊杰**江老师**讲解的非常好，**免考！！**
-13. 
 100. come on!!!!
 
 ## 知识分享
@@ -307,6 +307,7 @@
 ### 移动161
 1. 徐晗 :heavy_check_mark:
 2. 鄢滟麟 :heavy_check_mark:
+3. 卢孙仲
 
 ### 历届学友
 
