@@ -241,12 +241,13 @@
 8. 11吕涵之整理sublime text和emmet的使用教程，平时成绩加40分。
 9. 11吕涵之回答帖子，平时成绩5分。
 10. 12沈丹青建立分享帖[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/203)，平时成绩加20分。
-12. 18 张虓敏、31陈汇、36黄小翠分享sublime text使用教程平时成绩加20分。
+12. 18张虓敏、31陈汇、36黄小翠分享sublime text使用教程平时成绩加20分。
 13. 11吕涵之勤奋学习、观察学习，建立问题贴[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/219),平时成绩加10分。
 14. 31陈汇回答帖子，平时成绩加5分。
 15. 31陈汇建立**问题贴**[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/220)，平时成绩加10分。
 16. 11吕涵之、18张虓敏在**知识分享活动**中，通过做教程、试讲课等形式进行知识分享，平时成绩加30分！
 17. 11吕涵之就**background-size**进行讨论，平时成绩加5分。
+18. 18张虓敏、31陈汇频繁参与悬赏贴，平时成绩各加60分。
 
 
 ### 移动161
