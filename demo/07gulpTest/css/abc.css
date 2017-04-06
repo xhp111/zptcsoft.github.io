@@ -5,4 +5,8 @@ body {
 
 h1 {
     text-align: center;
+    transition: all .5s;
+    animation: run 3s;
+    display: -ms-flexbox;
+    display: flex;
 }

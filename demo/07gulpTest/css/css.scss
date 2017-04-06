@@ -1,0 +1,15 @@
+﻿$bgColor:#ff0000;
+$feColor:#00ff00;
+
+body{
+    background: $bgColor;
+    color: $feColor;
+    h1{
+        text-align: center;
+        
+        &:hover{
+            color:red;
+            text-align: center;
+        }
+    }
+}
