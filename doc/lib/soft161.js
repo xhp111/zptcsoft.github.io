@@ -221,7 +221,7 @@ angular.module('test', ['objectTable'])
 				work08: 5,
 				work09: 5,
 				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 90,
+				github: 100,
 				grade02: 99,
 				grade03: 0
 			},

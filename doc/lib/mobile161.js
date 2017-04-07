@@ -201,7 +201,7 @@ angular.module('test', ['objectTable'])
 				work08: 5,
 				work09: 5,
 				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 35,
+				github: 45,
 				grade02: 100,
 				grade03: 0
 			},
@@ -841,7 +841,7 @@ angular.module('test', ['objectTable'])
 				work08: 5,
 				work09: 5,
 				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 10,
+				github: 60,
 				grade02: 90,
 				grade03: 0
 			},
