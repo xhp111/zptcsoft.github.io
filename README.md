@@ -313,7 +313,7 @@
 ### 移动161
 1. 徐晗 :heavy_check_mark:
 2. 鄢滟麟 :heavy_check_mark:
-3. 卢孙仲
+3. 卢孙仲 :heavy_check_mark:
 
 ### 历届学友
 
