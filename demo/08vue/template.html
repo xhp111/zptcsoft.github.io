@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>模板的使用</title>
+	</head>
+	<body>
+		<div id='app'> 
+		  <hello-component></hello-component>
+		</div>
+		<script src="https://cdn.bootcss.com/vue/2.2.6/vue.min.js"></script>
+		<script type="text/javascript">
+			var HelloComponent=Vue.extend({
+				template:'<h1>Hello</h1>'
+			});
+			Vue.component('hello-component',HelloComponent);
+			
+			var app=new Vue({
+				el:'#app'
+			});
+		</script>
+	</body>
+</html>
