@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
-		<title>简要介绍-双向绑定与颜色测试</title>
+		<title>双向绑定与颜色测试</title>
 		<style type="text/css">
+			
 			body {
 				padding: 0;
 				margin: 0;
@@ -13,12 +15,14 @@
 				top: 0;
 				bottom: 0;
 			}
+			
 			#app {
 				min-width: 100%;
 				min-height: 100%;
 				position: absolute;
 				z-index: -1;
 			}
+			
 			#app input {
 				position: absolute;
 				left: 0;
@@ -36,24 +40,20 @@
 				background: transparent;
 				transiton: all .5s;
 			}
+			
 			#app input:focus {
 				border: 1px solid #000;
 				box-shadow: inset 0px 0px 6px 0 rgba(0, 0, 0, .5);
 			}
+			
 			h2 {
 				padding: 10px;
 				margin: 5px;
 			}
 		</style>
 	</head>
+
 	<body>
-<!--
-1. 双向绑定
-	利用上节课中的声明式渲染，实现从数据到视图的绑定
-	利用v-model指令，实现从视图到数据的绑定
-2. 利用本案例复习CSS中的颜色表示法
-      利用本案例复习“全屏”和“居中”等CSS实现
--->
 		<div id="app" v-bind:style="{background:color}">
 			<input type="text" v-model="color" placeholder="输入颜色找找感觉">
 		</div>
@@ -66,9 +66,9 @@
 			<li>hsla函数表示法，hsla(0,50%,50%,.5)</li>
 			<li>颜色关键字表示法，red</li>
 		</ul>
-		<script src="https://unpkg.com/vue/dist/vue.js"></script>
+		<script src="https://cdn.bootcss.com/vue/2.2.6/vue.min.js"></script>
 		<script type="text/javascript">
-			new Vue({
+			var app = new Vue({
 				el: "#app",
 				data: {
 					color: "rgba(0,100,0,.5)"
