@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>简要介绍-事件绑定</title>
+		<style type="text/css">
+			hr{
+				border: none;
+				border: 1px dashed rgba(0,0,0,.2);
+			}
+		</style>
+	</head>
+	<body>
+<!--
+1. 事件绑定
+	v-on:click 直接运行代码
+		可以简写为 @click
+	@click 绑定事件处理方法
+2. 事件修饰符
+	
+-->
+		<div id="app">
+			<!--
+				v-on:click
+			-->
+			<input type="button" value="计数加1" v-on:click="count++" />
+			<p>{{count}}</p>
+			<hr />
+			<!--
+				v-on:click
+					可以简写为@click
+			-->
+			<input type="button" value="利用事件处理方法发送消息" @click="sayHello" />
+			<hr />
+			<!--
+				事件修饰符
+			-->
+			<input type="button" value="事件修饰符的使用" @click.once="sayHello" />
+			
+			<br />
+			<br />
+			
+			<input type="text" placeholder="利用enter提交信息" v-model="message" @keyup.enter="addMessage" />
+			<ul>
+				<li v-for="(item,index) in items">
+					{{item}}
+				</li>
+			</ul>
+		</div>
+		<script src="https://unpkg.com/vue/dist/vue.js"></script>
+		<script type="text/javascript">
+			new Vue({
+				el:"#app",
+				data:{
+					count:0,
+					message:'',
+					items:['hello world','打招呼','早上好']
+				},
+				methods:{
+					sayHello:function(){
+						console.log('hello world.');
+					},
+					addMessage:function(){
+						this.items.push(this.message);
+						this.message="";
+					}
+				}
+			});
+		</script>
+	</body>
+</html>

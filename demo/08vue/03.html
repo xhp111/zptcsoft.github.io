@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>简要介绍-条件与循环</title>
+		<style type="text/css">
+			table{
+				border-collapse: collapse;
+				width: 300px;
+			}
+			table,td{
+				border: 1px solid #000;
+				text-align: center;
+			}
+			hr{
+				border: none;
+				border: 1px dashed rgba(0,0,0,.2);
+			}
+		</style>
+	</head>
+	<body>
+<!--
+条件与循环
+1. 条件渲染
+	v-if
+	v-else
+	v-else-if
+	v-show
+	
+	v-show与v-if
+		频繁更改的条件用v-show
+		运行时不更改的用v-if
+2. 循环
+	v-for
+-->
+		<div id="app">
+			<h2>条件渲染</h2>
+			<!--	
+				v-if
+			-->
+			<input type="text" v-model="message" placeholder="输入内容才可以显示按钮" />
+			<input type="button" v-if="message" value="按钮" />
+			<hr />
+			<!--	
+				v-if
+				v-else
+			-->
+			<input type="text" v-model='name' placeholder="输入姓名" />
+			<p>
+				<span v-if='name'>欢迎{{name}}来到Vue的世界！！</span>
+				<span v-else>不知道你是谁，请输入！</span>
+			</p>
+			<hr />
+			<!--	
+				v-show
+			-->
+			<input type="text" v-model="message2" placeholder="输入内容才可以显示按钮" />
+			<input type="button" v-show="message2" value="按钮" />
+			<h2>循环渲染</h2>
+			<!--
+				v-for
+			-->
+			<h3 v-if="todoLists.length>0">今天必须要完成的事情：</h3>
+			<ul>
+				<li v-for="item in todoLists">{{item}}</li>
+			</ul>
+			<hr />
+			<!--
+				v-for 还支持一个可选的第二个参数为当前项的索引
+			-->
+			<ul>
+			  <li v-for="(item, index) in items">
+			    {{ parentMessage }} - {{ index }} - {{ item.message }}
+			  </li>
+			</ul>
+			<hr />
+			<!--
+				v-for 遍历对象
+			-->
+			<ul>
+				<li v-for="(value,key,index) in config">
+					 {{ index }}-{{ key }} : {{ value }}
+				</li>
+			</ul>
+			<hr />
+			<!--
+				v-for与v-if配合使用
+					显示年龄大于20的学生
+			-->
+			<table>
+				<tr>
+					<td>姓名</td>
+					<td>年龄</td>
+					<td>分数</td>
+				</tr>
+				<tr v-for="(item,index) in students" v-if="item.age>20">
+					<td v-for="(value,key) in item">
+						{{value}}
+					</td>
+				</tr>
+			</table>
+		</div>
+		<script src="https://unpkg.com/vue/dist/vue.js"></script>
+		<script type="text/javascript">
+			new Vue({
+				el: "#app",
+				data: {
+					message:'',
+					name:'',
+					message2:'',
+					todoLists:['论文修改','备课','指导工作室项目'],
+					parentMessage: '父元素',
+				    items: [
+				      { message: 'Foo' },
+				      { message: 'Bar' }
+				    ],
+				    config:{
+				    	siteName:'测试网站',
+				    	siteUrl:'zptcsoft.github.io',
+				    	siteAdmin:'whqet'
+				    },
+				    students:[
+				    	{
+				    		name:'tom',
+				    		age:24,
+				    		score:78
+				    	},
+				    	{
+				    		name:'Jack',
+				    		age:18,
+				    		score:80
+				    	},
+				    	{
+				    		name:'jane',
+				    		age:30,
+				    		score:60
+				    	}
+				    ]
+				}
+			});
+		</script>
+	</body>
+</html>

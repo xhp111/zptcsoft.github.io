@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400);
+			* {
+				box-sizing: border-box;
+			}
+			
+			body {
+				margin: 0;
+				font: 1.15em "Source Sans Pro", sans-serif;
+				letter-spacing: 0.5px;
+				background: #EEEEEE;
+				color: #35495E;
+			}
+			
+			h1 {
+				color: #41b883;
+				text-shadow: 1px 1px 0px #35495E, 2px 2px 0px #35495E, 3px 3px 0px #35495E, 4px 4px 0px #35495E;
+				font-size: 2.5em;
+				margin-bottom: 0;
+			}
+			
+			input {
+				display: block;
+				appearance: none;
+				margin: 0.5em auto;
+				padding: 0.5em;
+				padding-left: 0.1em;
+				vertical-align: middle;
+				border: 1px solid transparent;
+				border-bottom: 1px solid #35495E;
+				border-radius: 2px;
+				color: #35495E;
+				background: transparent;
+				font-size: 1em;
+				width: 100%;
+				max-width: 20em;
+				outline: 0;
+			}
+			
+			button {
+				appearance: none;
+				padding: 0.5em;
+				vertical-align: middle;
+				border: none;
+				background: none;
+				color: #41b883;
+				font-weight: 400;
+				font-size: 1em;
+				cursor: pointer;
+				text-shadow: 1px 1px 0px #35495E, 2px 2px 0px #35495E;
+				transition: color 0.25s ease-out;
+			}
+			
+			button:hover {
+				color: #3aa576;
+			}
+			
+			.openUp-enter-active,
+			.openUp-leave-active {
+				transition: all 0.5s;
+			}
+			
+			.openUp-enter,
+			.openUp-leave-active {
+				opacity: 0;
+				transform: translateY(25%);
+			}
+			
+			#vueApp {
+				text-align: center;
+				padding: 0 1em;
+			}
+			
+			#vueApp .message span {
+				vertical-align: sub;
+			}
+			
+			#vueApp .message button {
+				vertical-align: middle;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="vueApp">
+			<h1>Vue 2.0.1</h1>
+			<input v-model="message" @keyup.enter="addMessage()"/>
+			<button @click="addMessage()" v-if="message">Add Message</button>
+			<p v-if="message">{{ message }}</p>
+			<p v-else>Start typing to add a new message</p>
+			<transition name="openUp">
+				<div v-if="messages.length > 0">
+					<h1>Messages</h1>
+					<transition-group name="openUp">
+						<div class="message" v-for="(message, index) in messages" v-bind:key="message">
+							<span>{{ index | listify }} {{ message }}</span> 
+							<button @click="removeMessage(index)" v-if="message">x</button>
+						</div>
+					</transition-group>
+				</div>
+			</transition>
+		</div>
+		
+		<script src="https://cdn.bootcss.com/vue/2.2.6/vue.min.js"></script>
+		<script type="text/javascript">
+			var app = new Vue({
+				el: '#vueApp',
+
+				//template: '<div class="vueApp">\n<h1>Vue 2.0.1</h1>\n<input v-model="message" @keyup.enter="addMessage()"/>\n<button @click="addMessage()" v-if="message">Add Message</button>\n<p v-if="message">{{ message }}</p>\n<p v-else>Start typing to add a new message</p>\n<transition name="openUp">\n<div v-if="messages.length > 0">  \n<h1>Messages</h1>\n<transition-group name="openUp">\n<div class="message" v-for="(message, index) in messages" v-bind:key="message">\n<span>{{ index | listify }} {{ message }}</span> <button @click="removeMessage(index)" v-if="message">x</button>\n</div>\n</transition-group>\n</div>\n</transition>\n</div>',
+
+				data: {
+					message: 'Hello again, Vue!',
+					messages: []
+				},
+
+				methods: {
+					addMessage: function addMessage() {
+						if(this.message == "") return;
+
+						this.messages.push(this.message);
+						this.message = "";
+					},
+
+					removeMessage: function removeMessage(index) {
+						this.messages.splice(index, 1);
+					}
+				},
+
+				filters: {
+					listify: function listify(index) {
+						return "#" + (index + 1);
+					}
+				}
+			});
+		</script>
+	</body>
+
+</html>
