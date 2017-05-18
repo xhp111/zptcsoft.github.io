@@ -233,33 +233,389 @@ p a:hover{
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
 
-<h2>其他标签</h2>
-<h3>textarea-多行文本</h3>
-<pre><code class="html">&lt;!--多行文本，可以实现留言、评论、修改文章等功能--&gt;
-&lt;textarea name=&quot;message&quot; rows=&quot;10&quot; cols=&quot;30&quot;&gt;
-    多行文本
-&lt;/textarea&gt;
-</code></pre>
-<h3>注意项目使用的时候，经常结合在线编辑器一起使用。</h3>
-
-</article></section></slide>
-<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
-
-<h2>其他标签</h2>
-<h3>select option</h3>
-<pre><code class="html">&lt;!--下拉选择列表--&gt;
-&lt;select name=&quot;cars&quot;&gt;
-    &lt;option value=&quot;volvo&quot;&gt;Volvo&lt;/option&gt;
-    &lt;option value=&quot;saab&quot;&gt;Saab&lt;/option&gt;
-    &lt;option value=&quot;fiat&quot;&gt;Fiat&lt;/option&gt;
-    &lt;option value=&quot;audi&quot;&gt;Audi&lt;/option&gt;
-&lt;/select&gt;
+<h2>关键步骤讲解-我的兴趣HTML</h2>
+<pre><code class="html">&lt;main&gt;
+    &lt;section class=&quot;favContainer&quot;&gt;
+        &lt;h2&gt;我的兴趣&lt;/h2&gt;
+        &lt;ul class=&quot;fav clearfix&quot;&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;响应式布局&quot;&gt;RWD&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;流体布局&quot;&gt;Flexbox&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;CSS的预处理器&quot;&gt;Sass&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;CSS的预处理&quot;&gt;Less&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;CSS前缀处理&quot;&gt;Autoprefix&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;CSS新式布局方式&quot;&gt;Grid&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;不错的鼠标悬停效果集&quot;&gt;iHover&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href=&quot;#&quot; title=&quot;不错的动画库&quot;&gt;Animate.css&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/section&gt;
+&lt;/main&gt;
 </code></pre>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
 
-<h2><a href="./demos/editor.html?file=form6" target="_blank">案例与练习</a></h2>
+<h2>关键步骤讲解-我的兴趣CSS</h2>
+<pre><code class="css">/*
+ * 中间部分设置
+ * */
+main section{
+    margin: 50px 0px;
+}
+main section h2{
+    margin-bottom: 0px;
+}
+.fav li{
+    float: left;
+    width: 160px;
+    height: 48px;
+    text-align: center;
+    line-height: 48px;
+    background-color:rgba(100,100,200,.6);
+    margin: 10px 20px 0px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background .5s,border-radius .5s;
+}
+.fav li:hover{
+    border-radius: 0px;
+    background-color:rgba(100,100,200,.8);
+}
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>关键步骤讲解-项目示例HTML</h2>
+<pre><code class="html">&lt;section class=&quot;workContainer&quot;&gt;
+    &lt;a id=&quot;b&quot;&gt;&lt;/a&gt;
+    &lt;h2&gt;项目示例&lt;/h2&gt;
+    &lt;div class=&quot;work clearfix&quot;&gt;
+        &lt;figure class=&quot;work&quot;&gt;
+            &lt;figcaption&gt;代表项目&lt;/figcaption&gt;
+            &lt;img src=&quot;img/office.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/figure&gt;
+        &lt;figure class=&quot;work&quot;&gt;
+            &lt;figcaption&gt;代表项目&lt;/figcaption&gt;
+            &lt;img src=&quot;img/office.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/figure&gt;
+        &lt;figure class=&quot;work&quot;&gt;
+            &lt;figcaption&gt;代表项目&lt;/figcaption&gt;
+            &lt;img src=&quot;img/office.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/figure&gt;
+        &lt;figure class=&quot;work&quot;&gt;
+            &lt;figcaption&gt;代表项目&lt;/figcaption&gt;
+            &lt;img src=&quot;img/office.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/figure&gt;
+        &lt;figure class=&quot;work&quot;&gt;
+            &lt;figcaption&gt;代表项目&lt;/figcaption&gt;
+            &lt;img src=&quot;img/office.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/figure&gt;
+        &lt;figure class=&quot;work&quot;&gt;
+            &lt;figcaption&gt;代表项目&lt;/figcaption&gt;
+            &lt;img src=&quot;img/office.jpg&quot; alt=&quot;&quot; /&gt;
+        &lt;/figure&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>关键步骤讲解-项目示例CSS</h2>
+<pre><code class="css">.work{
+    padding: 0;
+    margin: 0;
+}
+.work figure{
+    width: 30%;
+    margin: calc(10% / 6) calc(10% / 2) 0 0;
+    float: left;
+    position: relative;
+}
+.work figure:nth-child(3n){
+    margin-right: 0px;
+}
+.work figure figcaption{
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    z-index: 3;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .5s;
+}
+.work figure:hover figcaption{
+    opacity: 1;
+}
+.work figure img{
+    width: 100%;
+    height: auto;
+    -webkit-filter: grayscale(.5);
+    transition: webkit-filter .5s;
+    cursor: pointer;
+}
+.work figure:hover img{
+    -webkit-filter: grayscale(0);
+}
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>关键步骤讲解-联系我们HTML</h2>
+<ul>
+<li>定义列表的使用</li>
+<li>表单的使用</li>
+</ul>
+<pre><code class="html">&lt;section class=&quot;contactContainer&quot;&gt;
+    &lt;a id=&quot;c&quot;&gt;&lt;/a&gt;
+    &lt;h2&gt;联系我们&lt;/h2&gt;
+    &lt;p&gt;前端技术发展非常迅速，个人视野有限，希望大家可以通过广泛的交流互动，实现共同提高！！期待您的回复！！&lt;/p&gt;
+    &lt;dl&gt;
+        &lt;dt&gt;邮箱&lt;/dt&gt;
+        &lt;dd&gt;whqet@qq.com&lt;/dd&gt;
+        &lt;dt&gt;QQ&lt;/dt&gt;
+        &lt;dd&gt;86079959&lt;/dd&gt;
+    &lt;/dl&gt;
+    &lt;div class=&quot;contact&quot;&gt;
+        &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; placeholder=&quot;名字&quot; /&gt;
+        &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot; placeholder=&quot;邮箱&quot; /&gt;
+        &lt;select name=&quot;fav&quot; id=&quot;fav&quot;&gt;
+            &lt;option value=&quot;fav&quot;&gt;兴趣&lt;/option&gt;
+            &lt;option value=&quot;web&quot;&gt;网页开发&lt;/option&gt;
+            &lt;option value=&quot;app&quot;&gt;应用开发&lt;/option&gt;
+            &lt;option value=&quot;html5&quot;&gt;html5开发&lt;/option&gt;
+            &lt;option value=&quot;chat&quot;&gt;微信开发&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;textarea name=&quot;message&quot; id=&quot;message&quot; placeholder=&quot;留言&quot;&gt;&lt;/textarea&gt;
+        &lt;input type=&quot;submit&quot; name=&quot;submit&quot; id=&quot;submit&quot; value=&quot;提交信息&quot;/&gt;
+    &lt;/div&gt;
+&lt;/section&gt;
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>关键步骤讲解-联系我们CSS</h2>
+<pre><code class="css">/*
+ contact 部分
+ * */
+.contactContainer dl dt{
+    padding:5px 20px;
+    background-color: #fff;
+    color: #000;
+    display: inline-block;
+}
+.contactContainer dl dd{
+    padding:5px 20px;
+    background-color: #000;
+    color: #fff;
+    margin: 0px 30px 0px 0px;
+    display: inline-block;
+}
+.contact input{
+    width: 31%;
+    margin: 5px 2% 5px 0px;
+    padding: 10px 16px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.contact select{
+    width: 32%;
+    padding: 10px 16px;
+    border-radius: 3px;
+    margin: 5px 0px 5px 4px;
+}
+.contact textarea,
+.contact input[type=&quot;submit&quot;]{
+    width: 48%;
+    height: 50px;
+    padding: 10px 16px;
+    border-radius: 3px;
+    margin: 5px 3% 5px 0px;
+    vertical-align: top;
+}
+.contact input[type=&quot;submit&quot;]{
+    margin: 5px 0px;
+    border:none;
+    outline: none;
+    background-color: #00BFFF;
+    cursor: pointer;
+}
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>关键步骤讲解-footer</h2>
+<pre><code class="html">&lt;footer&gt;
+    &lt;p&gt;
+        &amp;copy; 王海庆版权所有，如有雷同，非常感谢！
+    &lt;/p&gt;
+    &lt;a id=&quot;goTop&quot; href=&quot;#&quot;&gt;顶部&lt;/a&gt;
+&lt;/footer&gt;
+</code></pre>
+<pre><code class="css">/*
+ 版权部分
+ * */
+#goTop{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 0.8em;
+    color: #fff;
+}
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>关键步骤讲解-JS的使用（可选-感兴趣的同学可尝试）</h2>
+<pre><code class="html">&lt;script src=&quot;https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+    $(function() {
+        $(&#39;header a&#39;).on(&#39;click&#39;, function(e) {
+            e.preventDefault();
+            $(&#39;html, body&#39;).animate({ scrollTop: $($(this).attr(&#39;href&#39;)).offset().top}, 500);
+        });
+        $(&#39;#goTop&#39;).on(&#39;click&#39;, function(e) {
+            e.preventDefault();
+            $(&#39;html, body&#39;).animate({ scrollTop: 0}, 500);
+        });
+    });
+&lt;/script&gt;
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>核心知识点总结</h2>
+<ul>
+<li>CSS书写顺序</li>
+<li>CSS属性的使用</li>
+<li>水平居中</li>
+<li>单行文本垂直居中</li>
+<li>块元素的水平垂直居中</li>
+<li>浮动与定位的选择</li>
+<li>浮动与清除</li>
+<li>距离的设置</li>
+</ul>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>核心知识点总结-CSS书写顺序</h2>
+<pre><code class="css">/**
+ * CSS书写顺序 
+ * 先全局，再局部
+ * 先抽象，再具体
+ * 先上面，后下面
+ * hover前后紧挨着（行为处理前后选择器最好保持统一）
+ */
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>核心知识点总结-CSS属性的使用</h2>
+<pre><code class="css">/**
+ * CSS属性的使用-不知道写那些属性时考虑
+ * 显示方式，display为none、block、inline-block
+ * 宽高大小
+ * 颜色、背景, color,background
+ * 内外边距、边框、圆角，padding margin border border-radius
+ * 位置 float position left right top bottom
+ * 对齐方式  text-align vertical-align line-height
+ * 阴影 box-shadow
+ * 过渡 transition
+ * 等等
+ */
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>核心知识点总结-水平居中、单行文本垂直居中</h2>
+<pre><code class="css">/*
+ * 某文本元素需要居中，父元素里设置text-align:center
+ * 某块元素水平居中，固定宽度，水平方向margin为auto
+ * 单行文本垂直居中，设置行高=高度或设置上下相同的padding值
+ */
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>核心知识点总结-块元素的水平垂直居中</h2>
+<pre><code class="css">.center1{
+    width:400px;
+    height:400px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-top:-200px;
+    margin-left；-200px;
+}
+.center2{
+    width:400px;
+    height:400px;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+}
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>核心知识点总结-浮动、定位的选择</h2>
+<pre><code class="css">/*
+ * 如果不用浮动、定位就可以实现效果，尽量不用浮动、定位
+ * 如果有多个元素同时需要脱离常规流，同时没有上下位置的区别，用浮动。
+ * 如果某个元素相对于某层父元素位置固定，用（绝对）定位。
+ */
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>核心知识点总结-浮动和清除</h2>
+<pre><code class="css">/*
+ * 如果浮动，一定清除
+ * 一般在产生浮动的父元素上，使用clearfix类清除浮动。
+ */
+.clearfix::after{
+    content:&quot;&quot;;
+    display:table;
+    clear:both;
+    /*也可以设置些隐藏内容的属性*/
+}
+</code></pre>
+
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>核心知识点总结-距离的设置</h2>
+<pre><code class="css">/**
+ * 距离的设置
+ * padding和margin的使用
+ * 具体使用，结合背景、边框而定。
+ */
+</code></pre>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vcenter">
