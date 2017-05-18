@@ -43,7 +43,8 @@
 <h3>综合所学知识，系统应用到本项目中去</h3>
 
 </article></section></slide>
-<slide class="slide"><section class="slide-wrapper"><article>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
 <h2>网页布局流程</h2>
 <ol>
 <li>实现内容架构-HTML</li>
@@ -52,7 +53,7 @@
 </ol>
 
 </article></section></slide>
-<slide class="slide"><section class="slide-wrapper"><article class="flexbox vcenter">
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
 
 <h2>关键步骤讲解-素材的准备与下载</h2>
 <ul>
@@ -119,50 +120,114 @@
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
 
-<h2>label标签</h2>
-<h3>label标签与普通文本标签的区别</h3>
+<h2>关键步骤讲解-整体设置</h2>
+<pre><code class="css">/*
+ 公共设置
+ * */
+*{
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: &quot;&quot;;
+    display: table;
+    clear: both;
+}
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*
+整体设置
+ * */
+body{
+    background: url(../img/bg.jpg) center top fixed;
+    min-height: 1200px;
+    color: #fff;
+}
+.wrapper{
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+}
+</code></pre>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
 
-<h2>个人信息案例</h2>
-<iframe src="./demos/editor.html?file=form1" style="height:400px;"></iframe>
-</article></section></slide>
-<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
-
-<h2>个人信息改观案例</h2>
-<iframe src="./demos/editor.html?file=form2" style="height:400px;"></iframe>
-</article></section></slide>
-<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
-
-<h2>checkbox实现单击</h2>
-<h3>CSS里没有实现单击</h3>
-<h3>我们可以使用labe和input的关联实现单击</h3>
-<iframe src="./demos/editor.html?file=form4" style="height:400px;"></iframe>
-</article></section></slide>
-<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
-
-<h2>实现原理</h2>
-<h3>label和input之间的管理实现单击事件</h3>
-<h3>:checked伪类和~选择符配合实现，单击事件响应</h3>
-
-</article></section></slide>
-<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
-
-<h2>tab选项卡</h2>
-<h3><a href="///github.com/zptcsoft/zptcsoft.github.io/issues/271" target="_blank">实际应用与效果收集</a></h3>
-<h3><a href="./demos/editor.html?file=form4" target="_blank">tab选项卡本案例</a></h3>
+<h2>关键步骤讲解-logo设置</h2>
+<ul>
+<li>一个网页最好出现一个h1，便于搜索引擎收录。</li>
+<li>图片logo的时候可以不在网页中显示。</li>
+</ul>
+<pre><code class="css">/*
+ 头部设置
+ * */
+header{
+    position: relative;
+    margin: 30px 0px;
+}
+.logo h1{
+    display: none;
+}
+.logo img{
+    width: 80px;
+    height: auto;
+}
+</code></pre>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
 
-<h2>其他标签</h2>
-<h3>fieldset legend</h3>
-<pre><code class="html">&lt;!--表单分组用--&gt;
-&lt;fieldset id=&quot;&quot;&gt;
-    &lt;legend&gt;&lt;/legend&gt;
+<h2>关键步骤讲解-菜单设置</h2>
+<ul>
+<li>因为我们没有在logo和菜单外放容器，所以这里对菜单设置绝对定位</li>
+<li>水平菜单需要设置浮动和清除浮动</li>
+<li>注意动画前后位置的设置</li>
+</ul>
+<pre><code class="css">.mainNav{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.mainNav ul li{
+    float: left;
+    margin: 20px 30px;
+}
+.mainNav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    border: 1px solid transparent;
+    transition: color .5s,border .5s;
+    //这里注意，最好不用设置成 all .5s
+}
+.mainNav ul li a:hover{
+    color: #000;
+    border: 1px solid #fff;
+}
+</code></pre>
 
-&lt;/fieldset&gt;
+</article></section></slide>
+<slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
+
+<h2>关键步骤讲解-文字和链接设置</h2>
+<pre><code class="css">header h2{
+    margin: 50px 0;
+    font-size: 30px;
+}
+p a{
+    border-bottom:1px dashed #fff;
+    padding-bottom: 4px;
+    transition: border .5s;
+}
+p a:hover{
+    border-bottom:1px solid #fff;
+}
 </code></pre>
 
 </article></section></slide>
