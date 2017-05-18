@@ -38,37 +38,83 @@
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
 
 <h2>案例分析</h2>
-<h3>案例效果  <a href="///zptcweb.github.io/website/index.html" target="_blank">在线版</a>  <a href="./demos/editor.html?file=//zptcweb.github.io/website/index.html" target="_blank">编辑版</a></h3>
-<h3>注册、登陆、搜索、选择、留言</h3>
+<h3>极简网页效果</h3>
+<h3>案例效果  <a href="///zptcweb.github.io/website/index.html" target="_blank">完成版</a></h3>
+<h3>综合所学知识，系统应用到本项目中去</h3>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article>
-<h2><a href="///w3school.com.cn/tags/html_ref_byfunc.asp" target="_blank">元素概述</a></h2>
-<iframe class="widder" src="///zptcsoft.github.io/html5-elements-periodic-table/" frameborder="0"></iframe>
+<h2>网页布局流程</h2>
+<ol>
+<li>实现内容架构-HTML</li>
+<li>选择需要设置样式的部分-CSS选择器</li>
+<li>设置样式-CSS</li>
+</ol>
+
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vcenter">
 
-<h2>表单标签</h2>
+<h2>关键步骤讲解-素材的准备与下载</h2>
 <ul>
-<li>form</li>
-<li>fieldset、 legend、label</li>
-<li>input、textarea、button</li>
-<li>select、option、optiongroup</li>
-<li>meter、progress、datalist、output、keygen</li>
+<li>选择高清图片、无版权图片作为背景图</li>
+<li>知名前端导航网站 <a href="///wwwhere.io" target="_blank">wwwhere.io</a>，里面有高清<a href="///wwwhere.io/tags/images" target="_blank">图片分享</a></li>
+<li>SVG(可缩放矢量图形)，比较流行的网络矢量图像格式，主要用于大小变化的网络图案中，或者比较简单的形状动画中。</li>
 </ul>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
 
-<h2><a href="///www.w3school.com.cn/tags/tag_form.asp" target="_blank">form标签</a></h2>
-<h3><form> 标签用于为用户输入创建 HTML表单。</h3>
-<img src="./img/18/formTag.jpg" alt="">
+<h2>关键步骤讲解-html架构准备</h2>
+<pre><code class="html">&lt;!--整体架构，因为要整幅居中，所以需要本容器--&gt;
+&lt;div class=&quot;wrapper&quot;&gt;
+    &lt;!--页面头部，包括logo、菜单、介绍三个部分--&gt;
+    &lt;header&gt;&lt;/header&gt;
+    &lt;!--页面中间，包括兴趣、项目、联系三个部分--&gt;
+    &lt;main&gt;&lt;/main&gt;
+    &lt;!--页面脚部，包括版权和向上跳转部分--&gt;
+    &lt;footer&gt;&lt;/footer&gt;
+&lt;/div&gt;
+</code></pre>
+<ul>
+<li>因为要整幅居中，所以需要div.wrapper</li>
+<li>emmet简写 .wrapper&gt;header+main+footer</li>
+</ul>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
 
-<h2><a href="///www.w3school.com.cn/tags/tag_input.asp" target="_blank">input标签</a></h2>
-<h3>input标签的不同type属性，可以形成不同的效果。</h3>
+<h2>关键步骤讲解-header部分html实现</h2>
+<ul>
+<li>图片文字仅供参考，请大家体现出自己的特色。</li>
+<li>注意浮动的清除</li>
+</ul>
+<pre><code class="html">&lt;!--整体架构，因为要整幅居中，所以需要本容器--&gt;
+&lt;div class=&quot;wrapper&quot;&gt;
+    &lt;!--页面头部，包括logo、菜单、介绍三个部分--&gt;
+    &lt;header&gt;
+            &lt;a href=&quot;index.html&quot; class=&quot;logo&quot;&gt;
+                &lt;h1&gt;个人主页&lt;/h1&gt;
+                &lt;img src=&quot;img/steemit.svg&quot; alt=&quot;&quot; /&gt;
+            &lt;/a&gt;
+            &lt;div class=&quot;mainNav&quot;&gt;
+                &lt;ul class=&quot;clearfix&quot;&gt;
+                    &lt;li&gt;&lt;a href=&quot;#a&quot;&gt;关于&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#b&quot;&gt;工作&lt;/a&gt;&lt;/li&gt;
+                    &lt;li&gt;&lt;a href=&quot;#c&quot;&gt;联系&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;a id=&quot;a&quot;&gt;&lt;/a&gt;
+            &lt;h2&gt;大家好，我是王海庆。&lt;/h2&gt;
+            &lt;p&gt;我是一个前端迷，喜欢探索，喜欢研究，对一切未知而又充满质感的事物充满好奇心，永远保持一颗童心。&lt;/p&gt;
+            &lt;p&gt;浙江邮电职业技术学院青年教师一枚，执着于前端技术。html5、css3、javascript、jquery、vue.js、angularjs、babel、sass、markdown、git等等都是我的最爱！！&lt;/p&gt;
+            &lt;p&gt;来吧，让我们一起来畅游前端的世界。&lt;a href=&quot;http://codepen.io/ericthayer/pen/zNxMer&quot;&gt;模仿实现&lt;/a&gt;，但适度创意！！&lt;/p&gt;
+        &lt;/header&gt;
+    &lt;!--页面中间，包括兴趣、项目、联系三个部分--&gt;
+    &lt;main&gt;&lt;/main&gt;
+    &lt;!--页面脚部，包括版权和向上跳转部分--&gt;
+    &lt;footer&gt;&lt;/footer&gt;
+&lt;/div&gt;
+</code></pre>
 
 </article></section></slide>
 <slide class="slide"><section class="slide-wrapper"><article class="flexbox vleft">
