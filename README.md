@@ -82,7 +82,8 @@
 15. [CSS背景](//zptcsoft.github.io/ppt/15.htm)
 16. [CSS边框](//zptcsoft.github.io/ppt/16.htm)--[border实验](//zptcsoft.github.io/ppt/demos/border.html)--[border实验02](//zptcsoft.github.io/ppt/demos/border02.html)
 17. [CSS盒模型](//zptcsoft.github.io/ppt/17.htm)
-18. [表单](//zptcsoft.github.io/ppt/18.htm)
+18. [表单](//zptcsoft.github.io/ppt/28.htm)
+19. [综合案例1](//zptcsoft.github.io/ppt/29.htm)
 30. [Audio元素](//zptcsoft.github.io/ppt/30.htm)
 
 ## 课程资源

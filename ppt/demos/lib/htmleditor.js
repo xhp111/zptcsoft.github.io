@@ -54,8 +54,15 @@ function setPreview() {
 
 function getEditorData(){
     if (fileParam) {
-        var url = window.location.href,
-            fileUrl = url.substr(0, url.lastIndexOf('/') + 1) + fileParam + '.html';
+        var url = window.location.href,fileUrl;
+        
+		if(fileParam.substr(0,2)=="//"){
+			fileUrl=fileParam;
+		}else if(fileParam.substr(0,1)=="/"){
+			
+		}else{
+			fileUrl=fileParam+".html";
+		}
 
         $.ajax({
             url: fileUrl,
