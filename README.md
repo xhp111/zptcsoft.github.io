@@ -100,7 +100,7 @@
 10. 一个不错的截图、编辑软件[picpick](http://pan.baidu.com/s/1o8yhFPC),支持截取整个网页、取色、量尺等。
 11. 简洁、美观的命令行神奇cmder[官方网站](http://cmder.net/), 本课资源[下载](http://pan.baidu.com/s/1bLpGPS)
 12. 一个不错的布局学习资源《[学习CSS布局](http://zh.learnlayout.com/)》！！
-13.colreDraw2017以及colreDraw注册机下载[下载](http://pan.baidu.com/s/1pLG0ZsZ) 密码：f4cf
+13. colreDraw2017以及colreDraw注册机下载[下载](http://pan.baidu.com/s/1pLG0ZsZ) 密码：f4cf
 
 ## 学友链接
 
