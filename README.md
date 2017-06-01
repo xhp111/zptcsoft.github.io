@@ -84,7 +84,7 @@
 17. [CSS盒模型](//zptcsoft.github.io/ppt/17.htm)
 18. [表单](//zptcsoft.github.io/ppt/28.htm)
 19. [综合案例1](//zptcsoft.github.io/ppt/29.htm)
-20. [综合案例1](//zptcsoft.github.io/ppt/30.htm)
+20. [综合案例2](//zptcsoft.github.io/ppt/30.htm)
 30. [Audio元素](//zptcsoft.github.io/ppt/31.htm)
 
 ## 课程资源
