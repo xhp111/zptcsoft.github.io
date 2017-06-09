@@ -20,7 +20,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 0,work15: 5,
 				github: 0,
 				grade02: 100,
 				grade03: 0
@@ -40,7 +40,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: -80,
 				grade02: 100,
 				grade03: 0
@@ -60,8 +60,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: -80,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 0,work15: 5,
+				github: -70,
 				grade02: 100,
 				grade03: 0
 			},
@@ -80,7 +80,7 @@ angular.module('test', ['objectTable'])
 				work07: 0,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 0,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 75,
 				grade03: 0
@@ -100,7 +100,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 85,
 				grade03: 0
@@ -120,7 +120,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 0,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 65,
 				grade03: 0
@@ -140,7 +140,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 100,
 				grade03: 0
@@ -160,7 +160,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 100,
 				grade03: 0
@@ -180,7 +180,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 0,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 10,
 				grade03: 0
@@ -200,8 +200,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 45,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 105,
 				grade02: 100,
 				grade03: 0
 			},
@@ -220,7 +220,7 @@ angular.module('test', ['objectTable'])
 				work07: 10,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 0,work15: 0,
 				github: 5,
 				grade02: 65,
 				grade03: 0
@@ -240,7 +240,7 @@ angular.module('test', ['objectTable'])
 				work07: 0,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 0,work12: 5,work13: 5,work14: 0,work15: 5,
 				github: 10,
 				grade02: 60,
 				grade03: 0
@@ -260,8 +260,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 10,
 				grade02: 100,
 				grade03: 0
 			},
@@ -280,8 +280,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 0,
+				work10: 5,work11: 0,work12: 5,work13: 5,work14: 0,work15: 5,
+				github: 10,
 				grade02: 70,
 				grade03: 0
 			},
@@ -300,7 +300,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 100,
 				grade03: 0
@@ -320,7 +320,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 100,
 				grade03: 0
@@ -340,7 +340,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 70,
 				grade03: 0
@@ -360,7 +360,7 @@ angular.module('test', ['objectTable'])
 				work07: 0,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 0,work15: 5,
 				github: 0,
 				grade02: 100,
 				grade03: 0
@@ -380,7 +380,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 60,
 				grade03: 0
@@ -400,8 +400,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 30,
 				grade02: 100,
 				grade03: 0
 			},
@@ -420,8 +420,8 @@ angular.module('test', ['objectTable'])
 				work07: 0,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 30,
 				grade02: 95,
 				grade03: 0
 			},
@@ -440,7 +440,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 0,work14: 0,work15: 5,
 				github: 0,
 				grade02: 65,
 				grade03: 0
@@ -460,8 +460,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 5,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 45,
 				grade02: 100,
 				grade03: 0
 			},
@@ -480,8 +480,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 30,
 				grade02: 100,
 				grade03: 0
 			},
@@ -500,7 +500,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 100,
 				grade03: 0
@@ -520,7 +520,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 85,
 				grade03: 0
@@ -540,7 +540,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 0,work12: 5,work13: 0,work14: 5,work15: 5,
 				github: 0,
 				grade02: 100,
 				grade03: 0
@@ -560,7 +560,7 @@ angular.module('test', ['objectTable'])
 				work07: 0,
 				work08: 0,
 				work09: 0,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 0,work11: 0,work12: 0,work13: 5,work14: 5,work15: 5,
 				github: -30,
 				grade02: 40,
 				grade03: 0
@@ -580,7 +580,7 @@ angular.module('test', ['objectTable'])
 				work07: 0,
 				work08: 0,
 				work09: 0,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 5,
 				github: 0,
 				grade02: 60,
 				grade03: 0
@@ -600,8 +600,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 5,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 25,
 				grade02: 100,
 				grade03: 0
 			},
@@ -620,7 +620,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 100,
 				grade03: 0
@@ -640,8 +640,8 @@ angular.module('test', ['objectTable'])
 				work07: 10,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 20,
 				grade02: 105,
 				grade03: 0
 			},
@@ -660,7 +660,7 @@ angular.module('test', ['objectTable'])
 				work07: 10,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 0,work15: 5,
 				github: 0,
 				grade02: 116,
 				grade03: 0
@@ -680,7 +680,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 85,
 				grade03: 0
@@ -700,7 +700,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 90,
 				grade03: 0
@@ -720,7 +720,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 100,
 				grade03: 0
@@ -740,8 +740,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: -30,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 0,
 				grade02: 90,
 				grade03: 0
 			},
@@ -760,7 +760,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 75,
 				grade03: 0
@@ -800,7 +800,7 @@ angular.module('test', ['objectTable'])
 				work07: 0,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 0,work12: 0,work13: 0,work14: 5,work15: 5,
 				github: 0,
 				grade02: 85,
 				grade03: 0
@@ -820,8 +820,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 55,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 125,
 				grade02: 115,
 				grade03: 0
 			},
@@ -840,8 +840,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 60,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 120,
 				grade02: 90,
 				grade03: 0
 			},
@@ -860,7 +860,7 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
 				github: 0,
 				grade02: 85,
 				grade03: 0
@@ -880,8 +880,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 0,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 30,
 				grade02: 100,
 				grade03: 0
 			},
@@ -900,8 +900,8 @@ angular.module('test', ['objectTable'])
 				work07: 5,
 				work08: 5,
 				work09: 5,
-				work10: 0,work11: 0,work12: 0,work13: 0,work14: 0,work15: 0,
-				github: 5,
+				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
+				github: 15,
 				grade02: 85,
 				grade03: 0
 			}
@@ -937,6 +937,6 @@ angular.module('test', ['objectTable'])
     }   
     
     $scope.getGrade($scope.data);
-    $scope.data.time='2017.04.01';
+    $scope.data.time='2017.06.09';
     //$scope.getGrade($scope.data2);
 })
