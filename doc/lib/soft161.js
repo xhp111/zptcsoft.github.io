@@ -877,6 +877,6 @@ angular.module('test', ['objectTable'])
     }   
     
     $scope.getGrade($scope.data);
-    $scope.data.time="2017.04.26";
+    $scope.data.time="2017.06.09";
     //$scope.getGrade($scope.data2);
 })
