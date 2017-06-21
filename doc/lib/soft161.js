@@ -241,7 +241,7 @@ angular.module('test', ['objectTable'])
 				work08: 5,
 				work09: 5,
 				work10: 5,work11: 5,work12: 5,work13: 5,work14: 5,work15: 5,
-				github: 30,
+				github: 50,
 				grade02: 90,
 				grade03: 0
 			},
@@ -310,7 +310,7 @@ angular.module('test', ['objectTable'])
 				name: "蒋轶聪",
 				preExam1: 0,
 				preExam2: 0,
-				preExam3: 0,
+				preExam3: '免考',
 				work01: 5,
 				work02: 5,
 				work03: 5,
@@ -750,7 +750,7 @@ angular.module('test', ['objectTable'])
 				name: "姜智孟",
 				preExam1: 0,
 				preExam2: 0,
-				preExam3: 0,
+				preExam3: '免考',
 				work01: 5,
 				work02: 5,
 				work03: 5,
@@ -877,6 +877,6 @@ angular.module('test', ['objectTable'])
     }   
     
     $scope.getGrade($scope.data);
-    $scope.data.time="2017.06.09";
+    $scope.data.time="2017.06.21";
     //$scope.getGrade($scope.data2);
 })
