@@ -83,8 +83,8 @@
 16. [CSS边框](//bestace.github.io/fed//ppt/16.htm)--[border实验](//bestace.github.io/fed//ppt/demos/border.html)--[border实验02](//bestace.github.io/fed//ppt/demos/border02.html)
 17. [CSS盒模型](//bestace.github.io/fed//ppt/17.htm)
 18. [表单](//bestace.github.io/fed//ppt/28.htm)
-19. [综合案例1](//bestace.github.io/fed//ppt/29.htm)
-20. [综合案例2](//bestace.github.io/fed//ppt/30.htm)
+19. [综合案例1](//bestace.github.io/fed/ppt/29.htm)
+20. [综合案例2](//bestace.github.io/fed/ppt/30.htm)
 21. [综合案例2-服务部分](//bestace.github.io/fed//ppt/30_1.htm)
 22. [综合案例2-案例部分](//bestace.github.io/fed//ppt/30_2.htm)
 30. [Audio元素](//bestace.github.io/fed//ppt/31.htm)
@@ -246,19 +246,19 @@
 
 ### 软件161
 1. 01姚宇飞 代我讲解个github desktop软件的使用，平时成绩加10分。
-2. 12沈丹青 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/203)，引领潮流，平时成绩加10分。
+2. 12沈丹青 发表有意义的[Issues](//github.com/bestace/fed/issues/203)，引领潮流，平时成绩加10分。
 3. 11吕涵之、31陈汇参与Issues讨论，平时成绩各加5分。
-4. 20何桂清发表发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/206)，平时成绩加10分。
+4. 20何桂清发表发表有意义的[Issues](//github.com/bestace/fed/issues/206)，平时成绩加10分。
 5. 19陈黎铭参与帖子讨论，平时成绩加5分。
-6. 18张虓敏发表发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/207)，平时成绩加10分。
+6. 18张虓敏发表发表有意义的[Issues](//github.com/bestace/fed/issues/207)，平时成绩加10分。
 7. 19陈黎铭、31陈汇参与帖子讨论，平时成绩加5分。
 8. 11吕涵之整理sublime text和emmet的使用教程，平时成绩加40分。
 9. 11吕涵之回答帖子，平时成绩5分。
-10. 12沈丹青建立分享帖[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/203)，平时成绩加20分。
+10. 12沈丹青建立分享帖[Issues](//github.com/bestace/fed/issues/203)，平时成绩加20分。
 12. 18张虓敏、31陈汇、36黄小翠分享sublime text使用教程平时成绩加20分。
-13. 11吕涵之勤奋学习、观察学习，建立问题贴[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/219),平时成绩加10分。
+13. 11吕涵之勤奋学习、观察学习，建立问题贴[Issues](//github.com/bestace/fed/issues/219),平时成绩加10分。
 14. 31陈汇回答帖子，平时成绩加5分。
-15. 31陈汇建立**问题贴**[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/220)，平时成绩加10分。
+15. 31陈汇建立**问题贴**[Issues](//github.com/bestace/fed/issues/220)，平时成绩加10分。
 16. 11吕涵之、18张虓敏在**知识分享活动**中，通过做教程、试讲课等形式进行知识分享，平时成绩加30分！
 17. 11吕涵之就**background-size**进行讨论，平时成绩加5分。
 18. 18张虓敏、31陈汇频繁参与悬赏贴，平时成绩各加60分。
@@ -276,15 +276,15 @@
 31. 37曾思思和47许桃美参加悬赏贴，平时成绩加20分。
 
 ### 移动161
-1. 10徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/204)，引领潮流，平时成绩加10分。
-2. 42鄢滟麟 发表【求助帖】[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/205)，平时成绩加10分。
-3. 10徐晗 发表有意义的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/215)，讨论`base`，平时成绩加10分。
+1. 10徐晗 发表有意义的[Issues](//github.com/bestace/fed/issues/204)，引领潮流，平时成绩加10分。
+2. 42鄢滟麟 发表【求助帖】[Issues](//github.com/bestace/fed/issues/205)，平时成绩加10分。
+3. 10徐晗 发表有意义的[Issues](//github.com/bestace/fed/issues/215)，讨论`base`，平时成绩加10分。
 4. 42鄢滟麟回答帖子，平时成绩加5分。
 5. 10徐晗在**知识分享活动**中，通过做教程、试讲课等形式进行知识分享，引领潮流，免考免考，祝贺！
 6. 42鄢滟麟在**知识分享活动**中，通过做教程、试讲课等形式进行知识分享，讲的非常好，平时成绩加30分。
-7. 43卢孙仲发表有意义的帖子[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/233)，讨论背景相关属性的使用，平时成绩加10分。
+7. 43卢孙仲发表有意义的帖子[Issues](//github.com/bestace/fed/issues/233)，讨论背景相关属性的使用，平时成绩加10分。
 8. 46王昭锦、23屠林锋、10徐晗、42鄢滟麟就**background-size**进行讨论，平时成绩各加5分。
-9. 10徐晗发表有意义的帖子[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/234)，讨论列表居中问题，平时成绩加10分。
+9. 10徐晗发表有意义的帖子[Issues](//github.com/bestace/fed/issues/234)，讨论列表居中问题，平时成绩加10分。
 10. 42鄢滟麟就**列表居中问题**进行讨论，平时成绩各加5分。
 11. 29丁磊、38号娄明磊缺席课程，平时成绩扣30分。
 12. 02张振栋、03傅禄祥课堂表现不好，屡次提醒不注意，平时成绩扣80分。
@@ -312,26 +312,26 @@
 
 ### 历史纪录
 #### 软件151 
-1. 24曾丽丽 成功提交[更改](//github.com/zptcsoft/zptcsoft.github.io/pull/126)，获得悬赏分数20分，鼓掌庆贺吧。
-2. 27王瑶 发起很有价值的[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/135)，平时成绩加5分。
-3. 09陈浩分享[取色软件colorspro](//github.com/zptcsoft/zptcsoft.github.io/issues/136)，喜欢的移步下载。平时成绩加5分，鼓掌庆贺！！
+1. 24曾丽丽 成功提交[更改](//github.com/bestace/fed/pull/126)，获得悬赏分数20分，鼓掌庆贺吧。
+2. 27王瑶 发起很有价值的[Issues](//github.com/bestace/fed/issues/135)，平时成绩加5分。
+3. 09陈浩分享[取色软件colorspro](//github.com/bestace/fed/issues/136)，喜欢的移步下载。平时成绩加5分，鼓掌庆贺！！
 4. 24曾丽丽Issuse里提问问题颇有深度， 31徐道聪Github使用提出问题，平时成绩各加5分。
 5. 27号王瑶在悬赏贴提交信息，平时成绩加5分。
-6. 31徐道聪Github使用提出两个[问题](//github.com/zptcsoft/zptcsoft.github.io/issues/155),[问题](//github.com/zptcsoft/zptcsoft.github.io/issues/158)，平时成绩各加5分。
-7. 27号王瑶Issues提交[问题](//github.com/zptcsoft/zptcsoft.github.io/issues/159)，平时成绩加10分。
+6. 31徐道聪Github使用提出两个[问题](//github.com/bestace/fed/155),[问题](//github.com/bestace/fed/issues/158)，平时成绩各加5分。
+7. 27号王瑶Issues提交[问题](//github.com/bestace/fed/159)，平时成绩加10分。
 8. 27号王瑶**王老师**讲得很好，**免考！！**
 100. 继续呀，海量分数等你拿。
 
 
 #### 软件152
-1. 37杨虹提问[问题](//github.com/zptcsoft/zptcsoft.github.io/issues/112)，平时成绩加5分，同学们动起来，go! go!
-2. 36陈兴博创建资源[分享帖](//github.com/zptcsoft/zptcsoft.github.io/issues/113)，平时成绩加5分，这就对了，yeah！
-3. 24郑爱萍提问[问题](//github.com/zptcsoft/zptcsoft.github.io/issues/115), 平时成绩加5分。大家一起来盖楼！！
-4. 03单超艺、10周冰婕创建[分享帖](//github.com/zptcsoft/zptcsoft.github.io/issues/121)，平时成绩各加5分。
-5. 30毛杰就Github Desktop使用问题进行[提问](//github.com/zptcsoft/zptcsoft.github.io/issues/130)，平时成绩加5分，Fighting，少年！
-6. 10周冰婕参与[Issues讨论](//github.com/zptcsoft/zptcsoft.github.io/issues/135)，回答基本正确，平时成绩加5分，大家积极讨论吧。
+1. 37杨虹提问[问题](//github.com/bestace/fed/issues/112)，平时成绩加5分，同学们动起来，go! go!
+2. 36陈兴博创建资源[分享帖](//github.com/bestace/fed/issues/113)，平时成绩加5分，这就对了，yeah！
+3. 24郑爱萍提问[问题](//github.com/bestace/fed/issues/115), 平时成绩加5分。大家一起来盖楼！！
+4. 03单超艺、10周冰婕创建[分享帖](//github.com/bestace/fed/issues/121)，平时成绩各加5分。
+5. 30毛杰就Github Desktop使用问题进行[提问](//github.com/bestace/fed/issues/130)，平时成绩加5分，Fighting，少年！
+6. 10周冰婕参与[Issues讨论](//github.com/bestace/fed/issues/135)，回答基本正确，平时成绩加5分，大家积极讨论吧。
 7. 10周冰婕创建**Pull Request**成功，领导悬赏分20分，平时成绩加20分。大家加油。
-8. 01余家宝创建[提问](//github.com/zptcsoft/zptcsoft.github.io/issues/137)，平时成绩加5分，03单超艺创建[Issues](//github.com/zptcsoft/zptcsoft.github.io/issues/138)，平时成绩加5分。
+8. 01余家宝创建[提问](//github.com/bestace/fed/issues/137)，平时成绩加5分，03单超艺创建[Issues](//github.com/bestace/fed/issues/138)，平时成绩加5分。
 9. 34张奎骁、06周陈在悬赏贴发帖，平时成绩个加10分。
 10. 27黄荣基在Issues提问问题，平时成绩加5分。
 11. 09陈猛在Issues提问问题，平时成绩加5分。
