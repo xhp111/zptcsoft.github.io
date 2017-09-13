@@ -89,7 +89,10 @@
 22. [综合案例2-案例部分](//bestace.github.io/fed//ppt/30_2.htm)
 30. [Audio元素](//bestace.github.io/fed//ppt/31.htm)
 
+#######################
+
 1. [课程概述](//bestace.github.io/fed//ppt/32.htm)
+2. [JS使用方式](//bestace.github.io/fed//ppt/33.htm)
 
 ## 课程资源
 0.  自制[在线html编辑器](//bestace.github.io/fed//ppt/demos/editor.html)。
