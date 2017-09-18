@@ -1,6 +1,9 @@
 body{
-	background:url(../images/02.jpg);
+	background: #ddddff;
 	color:#030;
+}
+a{
+	color: #fff;
 }
 h1{
 	font-size: 18px;
