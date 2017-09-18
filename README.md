@@ -93,6 +93,7 @@
 
 1. [课程概述](//bestace.github.io/fed//ppt/32.htm)
 2. [JS使用方式](//bestace.github.io/fed//ppt/33.htm)
+3. [JS语言基础](//bestace.github.io/fed//ppt/34.htm)
 
 ## 课程资源
 0.  自制[在线html编辑器](//bestace.github.io/fed//ppt/demos/editor.html)。
